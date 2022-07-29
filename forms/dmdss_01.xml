@@ -1,0 +1,286 @@
+<h:html xmlns:h="http://www.w3.org/1999/xhtml" xmlns:orx="http://openrosa.org/jr/xforms" xmlns="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa" xmlns:vellum="http://commcarehq.org/xforms/vellum">
+  <h:head>
+    <h:title>DM DSS Form</h:title>
+    <model>
+      <instance>
+        <data xmlns:jrm="http://dev.commcarehq.org/jr/xforms" xmlns="http://openrosa.org/formdesigner/FDF7441E-C891-493B-A85C-3D642022D11E" uiVersion="1" version="1" name="DM DSS Form">
+          <patients_full_name/>
+          <date_of_birth/>
+          <sex/>
+          <checklist/>
+          <Check_for_Random_Finger_Prick_Glucose/>
+          <Patient_Condition/>
+          <is_the_patient_capable_to_take_orally/>
+          <Are_there_any_Ketones_in_Urine/>
+          <Give_Routine_Diabetes_Care/>
+          <Give_Oral_Glucose_20g/>
+          <give_glucose_via/>
+          <Glucose_200mgdL_with_symptoms/>
+          <If_you_have_any_further_notes_please_write_here/>
+        </data>
+      </instance>
+      <bind vellum:nodeset="#form/patients_full_name" nodeset="/data/patients_full_name" type="xsd:string" required="true()"/>
+      <bind vellum:nodeset="#form/date_of_birth" nodeset="/data/date_of_birth" type="xsd:date" required="true()"/>
+      <bind vellum:nodeset="#form/sex" nodeset="/data/sex" required="true()"/>
+      <bind vellum:nodeset="#form/checklist" nodeset="/data/checklist" required="true()"/>
+      <bind vellum:nodeset="#form/Check_for_Random_Finger_Prick_Glucose" nodeset="/data/Check_for_Random_Finger_Prick_Glucose" type="xsd:double" required="true()"/>
+      <bind vellum:nodeset="#form/Patient_Condition" nodeset="/data/Patient_Condition" required="true()"/>
+      <bind vellum:nodeset="#form/is_the_patient_capable_to_take_orally" nodeset="/data/is_the_patient_capable_to_take_orally" vellum:relevant="#form/Check_for_Random_Finger_Prick_Glucose &lt; '70'" relevant="/data/Check_for_Random_Finger_Prick_Glucose &lt; '70'" required="true()"/>
+      <bind vellum:nodeset="#form/Are_there_any_Ketones_in_Urine" nodeset="/data/Are_there_any_Ketones_in_Urine" vellum:relevant="#form/Check_for_Random_Finger_Prick_Glucose &gt; '200' and #form/Patient_Condition = 'Asymptomatic'" relevant="/data/Check_for_Random_Finger_Prick_Glucose &gt; '200' and /data/Patient_Condition = 'Asymptomatic'" required="true()"/>
+      <bind vellum:nodeset="#form/Give_Routine_Diabetes_Care" nodeset="/data/Give_Routine_Diabetes_Care" vellum:relevant="#form/Are_there_any_Ketones_in_Urine = 'no' and #form/Patient_Condition = 'Asymptomatic' and #form/Check_for_Random_Finger_Prick_Glucose &gt; '200'" relevant="/data/Are_there_any_Ketones_in_Urine = 'no' and /data/Patient_Condition = 'Asymptomatic' and /data/Check_for_Random_Finger_Prick_Glucose &gt; '200'"/>
+      <bind vellum:nodeset="#form/Give_Oral_Glucose_20g" nodeset="/data/Give_Oral_Glucose_20g" vellum:relevant="#form/is_the_patient_capable_to_take_orally = 'yes' and #form/Check_for_Random_Finger_Prick_Glucose &lt; '70'" relevant="/data/is_the_patient_capable_to_take_orally = 'yes' and /data/Check_for_Random_Finger_Prick_Glucose &lt; '70'"/>
+      <bind vellum:nodeset="#form/give_glucose_via" nodeset="/data/give_glucose_via" vellum:relevant="#form/is_the_patient_capable_to_take_orally = 'no' and #form/Check_for_Random_Finger_Prick_Glucose &lt; '70'" relevant="/data/is_the_patient_capable_to_take_orally = 'no' and /data/Check_for_Random_Finger_Prick_Glucose &lt; '70'"/>
+      <bind vellum:nodeset="#form/Glucose_200mgdL_with_symptoms" nodeset="/data/Glucose_200mgdL_with_symptoms" vellum:relevant="#form/Check_for_Random_Finger_Prick_Glucose &gt; '200' or #form/Patient_Condition = 'Symptomatic' or #form/Are_there_any_Ketones_in_Urine = 'yes'" relevant="/data/Check_for_Random_Finger_Prick_Glucose &gt; '200' or /data/Patient_Condition = 'Symptomatic' or /data/Are_there_any_Ketones_in_Urine = 'yes'"/>
+      <bind vellum:nodeset="#form/If_you_have_any_further_notes_please_write_here" nodeset="/data/If_you_have_any_further_notes_please_write_here" type="xsd:string"/>
+      <itext>
+        <translation lang="en" default="">
+          <text id="patients_full_name-label">
+            <value>Patient's Full Name</value>
+          </text>
+          <text id="date_of_birth-label">
+            <value>Date of Birth</value>
+          </text>
+          <text id="sex-label">
+            <value>Sex</value>
+          </text>
+          <text id="sex-Male-label">
+            <value>Male</value>
+          </text>
+          <text id="sex-Female-label">
+            <value>Female</value>
+          </text>
+          <text id="checklist-label">
+            <value>Checklist</value>
+          </text>
+          <text id="checklist-Chest_Pain-label">
+            <value>Chest Pain</value>
+          </text>
+          <text id="checklist-Convulsing-label">
+            <value>Convulsing</value>
+          </text>
+          <text id="checklist-Decreased_consciousness,_drowsiness-label">
+            <value>Decreased consciousness, drowsiness</value>
+          </text>
+          <text id="checklist-Confusion_or_unusual_behavior-label">
+            <value>Confusion or unusual behavior</value>
+          </text>
+          <text id="checklist-Weakness_or_dizziness-label">
+            <value>Weakness or dizziness</value>
+          </text>
+          <text id="checklist-Shaking-label">
+            <value>Shaking</value>
+          </text>
+          <text id="checklist-Sweating-label">
+            <value>Sweating</value>
+          </text>
+          <text id="checklist-Palpitations-label">
+            <value>Palpitations</value>
+          </text>
+          <text id="checklist-Rapid_deep_breathing-label">
+            <value>Rapid deep breathing</value>
+          </text>
+          <text id="checklist-Nausea_or_vomiting-label">
+            <value>Nausea or vomiting</value>
+          </text>
+          <text id="checklist-Abdominal_pain-label">
+            <value>Abdominal pain</value>
+          </text>
+          <text id="checklist-Thirst_or_hunger-label">
+            <value>Thirst or hunger</value>
+          </text>
+          <text id="checklist-Temperature_38C-label">
+            <value>Temperature ≥ 38°C</value>
+          </text>
+          <text id="checklist-Severe_dehydration:_decrease_urine_output,_BP_90/60,_pulse_100-label">
+            <value>Severe dehydration: decrease urine output, BP &lt; 90/60, pulse ≥ 100</value>
+          </text>
+          <text id="Check_for_Random_Finger_Prick_Glucose-label">
+            <value>Check for Random Finger Prick Glucose Levels (mg/dL)</value>
+          </text>
+          <text id="Patient_Condition-label">
+            <value>Patient Condition</value>
+          </text>
+          <text id="Patient_Condition-Symptomatic-label">
+            <value>Symptomatic</value>
+          </text>
+          <text id="Patient_Condition-Asymptomatic-label">
+            <value>Asymptomatic</value>
+          </text>
+          <text id="is_the_patient_capable_to_take_orally-label">
+            <value>Is the Patient capable to take orally?</value>
+          </text>
+          <text id="is_the_patient_capable_to_take_orally-yes-label">
+            <value>Yes</value>
+          </text>
+          <text id="is_the_patient_capable_to_take_orally-no-label">
+            <value>No</value>
+          </text>
+          <text id="Are_there_any_Ketones_in_Urine-label">
+            <value>Are there any Ketones in Urine?</value>
+          </text>
+          <text id="Are_there_any_Ketones_in_Urine-yes-label">
+            <value>Yes</value>
+          </text>
+          <text id="Are_there_any_Ketones_in_Urine-no-label">
+            <value>No</value>
+          </text>
+          <text id="Give_Routine_Diabetes_Care-label">
+            <value>Give Routine Diabetes Care</value>
+          </text>
+          <text id="Give_Oral_Glucose_20g-label">
+            <value>Give Oral Glucose 20g</value>
+          </text>
+          <text id="give_glucose_via-label">
+            <value>• Give glucose 40% 50mL IV over 2-3 minutes. Repeat if glucose still &amp;lt;70mg/dL after 15 minutes.
+Maintain with glucose 10% solution.
+• Give the patient food as soon as s/he can eat safely.
+• Identify cause and educate about meals and doses.
+• If incomplete recovery, refer same day.
+• Discuss referral if on gliclazide or insulin.
+ </value>
+          </text>
+          <text id="Glucose_200mgdL_with_symptoms-label">
+            <value>Glucose &gt; 200mg/dL with symptoms
+• Give normal saline 1L IV over 2 hours then 1L 4 hourly
+• Give regular insulin 10IU IM single dose.
+• Refer urgently.
+ 
+</value>
+          </text>
+          <text id="If_you_have_any_further_notes_please_write_here-label">
+            <value>If you have any further notes please write here...</value>
+          </text>
+        </translation>
+      </itext>
+    </model>
+  </h:head>
+  <h:body>
+    <input vellum:ref="#form/patients_full_name" ref="/data/patients_full_name">
+      <label ref="jr:itext('patients_full_name-label')"/>
+    </input>
+    <input vellum:ref="#form/date_of_birth" ref="/data/date_of_birth">
+      <label ref="jr:itext('date_of_birth-label')"/>
+    </input>
+    <select1 vellum:ref="#form/sex" ref="/data/sex">
+      <label ref="jr:itext('sex-label')"/>
+      <item>
+        <label ref="jr:itext('sex-Male-label')"/>
+        <value>Male</value>
+      </item>
+      <item>
+        <label ref="jr:itext('sex-Female-label')"/>
+        <value>Female</value>
+      </item>
+    </select1>
+    <select vellum:ref="#form/checklist" ref="/data/checklist">
+      <label ref="jr:itext('checklist-label')"/>
+      <item>
+        <label ref="jr:itext('checklist-Chest_Pain-label')"/>
+        <value>Chest_Pain</value>
+      </item>
+      <item>
+        <label ref="jr:itext('checklist-Convulsing-label')"/>
+        <value>Convulsing</value>
+      </item>
+      <item>
+        <label ref="jr:itext('checklist-Decreased_consciousness,_drowsiness-label')"/>
+        <value>Decreased_consciousness,_drowsiness</value>
+      </item>
+      <item>
+        <label ref="jr:itext('checklist-Confusion_or_unusual_behavior-label')"/>
+        <value>Confusion_or_unusual_behavior</value>
+      </item>
+      <item>
+        <label ref="jr:itext('checklist-Weakness_or_dizziness-label')"/>
+        <value>Weakness_or_dizziness</value>
+      </item>
+      <item>
+        <label ref="jr:itext('checklist-Shaking-label')"/>
+        <value>Shaking</value>
+      </item>
+      <item>
+        <label ref="jr:itext('checklist-Sweating-label')"/>
+        <value>Sweating</value>
+      </item>
+      <item>
+        <label ref="jr:itext('checklist-Palpitations-label')"/>
+        <value>Palpitations</value>
+      </item>
+      <item>
+        <label ref="jr:itext('checklist-Rapid_deep_breathing-label')"/>
+        <value>Rapid_deep_breathing</value>
+      </item>
+      <item>
+        <label ref="jr:itext('checklist-Nausea_or_vomiting-label')"/>
+        <value>Nausea_or_vomiting</value>
+      </item>
+      <item>
+        <label ref="jr:itext('checklist-Abdominal_pain-label')"/>
+        <value>Abdominal_pain</value>
+      </item>
+      <item>
+        <label ref="jr:itext('checklist-Thirst_or_hunger-label')"/>
+        <value>Thirst_or_hunger</value>
+      </item>
+      <item>
+        <label ref="jr:itext('checklist-Temperature_38C-label')"/>
+        <value>Temperature_38C</value>
+      </item>
+      <item>
+        <label ref="jr:itext('checklist-Severe_dehydration:_decrease_urine_output,_BP_90/60,_pulse_100-label')"/>
+        <value>Severe_dehydration:_decrease_urine_output,_BP_90/60,_pulse_100</value>
+      </item>
+    </select>
+    <input vellum:ref="#form/Check_for_Random_Finger_Prick_Glucose" ref="/data/Check_for_Random_Finger_Prick_Glucose">
+      <label ref="jr:itext('Check_for_Random_Finger_Prick_Glucose-label')"/>
+    </input>
+    <select1 vellum:ref="#form/Patient_Condition" ref="/data/Patient_Condition">
+      <label ref="jr:itext('Patient_Condition-label')"/>
+      <item>
+        <label ref="jr:itext('Patient_Condition-Symptomatic-label')"/>
+        <value>Symptomatic</value>
+      </item>
+      <item>
+        <label ref="jr:itext('Patient_Condition-Asymptomatic-label')"/>
+        <value>Asymptomatic</value>
+      </item>
+    </select1>
+    <select1 vellum:ref="#form/is_the_patient_capable_to_take_orally" ref="/data/is_the_patient_capable_to_take_orally">
+      <label ref="jr:itext('is_the_patient_capable_to_take_orally-label')"/>
+      <item>
+        <label ref="jr:itext('is_the_patient_capable_to_take_orally-yes-label')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('is_the_patient_capable_to_take_orally-no-label')"/>
+        <value>no</value>
+      </item>
+    </select1>
+    <select1 vellum:ref="#form/Are_there_any_Ketones_in_Urine" ref="/data/Are_there_any_Ketones_in_Urine">
+      <label ref="jr:itext('Are_there_any_Ketones_in_Urine-label')"/>
+      <item>
+        <label ref="jr:itext('Are_there_any_Ketones_in_Urine-yes-label')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('Are_there_any_Ketones_in_Urine-no-label')"/>
+        <value>no</value>
+      </item>
+    </select1>
+    <trigger vellum:ref="#form/Give_Routine_Diabetes_Care" ref="/data/Give_Routine_Diabetes_Care" appearance="minimal">
+      <label ref="jr:itext('Give_Routine_Diabetes_Care-label')"/>
+    </trigger>
+    <trigger vellum:ref="#form/Give_Oral_Glucose_20g" ref="/data/Give_Oral_Glucose_20g" appearance="minimal">
+      <label ref="jr:itext('Give_Oral_Glucose_20g-label')"/>
+    </trigger>
+    <trigger vellum:ref="#form/give_glucose_via" ref="/data/give_glucose_via" appearance="minimal">
+      <label ref="jr:itext('give_glucose_via-label')"/>
+    </trigger>
+    <trigger vellum:ref="#form/Glucose_200mgdL_with_symptoms" ref="/data/Glucose_200mgdL_with_symptoms" appearance="minimal">
+      <label ref="jr:itext('Glucose_200mgdL_with_symptoms-label')"/>
+    </trigger>
+    <input vellum:ref="#form/If_you_have_any_further_notes_please_write_here" ref="/data/If_you_have_any_further_notes_please_write_here">
+      <label ref="jr:itext('If_you_have_any_further_notes_please_write_here-label')"/>
+    </input>
+  </h:body>
+</h:html>

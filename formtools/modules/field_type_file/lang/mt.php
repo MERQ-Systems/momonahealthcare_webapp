@@ -1,0 +1,40 @@
+<?php
+
+$L = array();
+$L["module_name"] = "Tella 'l-fajl";
+
+$L["confirm_delete_submission_files"] = "Inti żgur li trid tħassar dawn il-fajls?";
+$L["module_description"] = "Dan il-modulu jipprovdi kamp ta 'upload sempliċi tal-fajl għall-użu fl-oqsma tal-Form Tools tiegħek.";
+$L["notify_file_deleted"] = "Il-fajl tħassar.";
+$L["notify_file_too_large"] = "Il-fajl <b>{\$filename}</b> huwa kbir wisq. Il-fajl kien {\$file_size} KB, iżda d-daqs massimu permess ta 'upload tal-fajl huwa {\$max_file_size} KB.";
+$L["notify_files_deleted"] = "Il-fajls tħassru.";
+$L["notify_files_too_large"] = "Il-fajls li ġejjin huma kbar wisq: <b>{\$file_list}</b>";
+$L["notify_submission_no_field_id"] = "L-ID tal-field ta 'din is-sottomissjoni ma nstabx.";
+$L["notify_file_not_deleted_invalid_permissions"] = "Il-fajl <b>{\$filename}</b> fil-folder <b>{\$folder}</b> ma setax jitħassar minħabba li ma kellux il-permessi xierqa.";
+$L["notify_files_not_deleted_invalid_permissions"] = "Il-fajls li ġejjin ma setgħux jitħassru minħabba li m'għandhomx il-permessi xierqa: <b>{\$file_list}</b>.";
+$L["notify_file_not_deleted_unknown_error"] = "Il-fajl <b>{\$filename}</b> fil-folder <b>{\$folder}</b> ma setax jitħassar minħabba żball mhux magħruf.";
+$L["notify_files_not_deleted_unknown_errors"] = "Il-fajls li ġejjin ma setgħux jitħassru minħabba żbalji mhux magħrufa: <b>{\$file_list}</b>.";
+$L["notify_clear_error"] = "<a href=\"#\" onclick=\"{\$js_link}\">Ikklikkja hawn</a> biex tinjora dan il-messaġġ ta 'żball u sempliċement neħħi r-referenza mid-database.";
+$L["notify_clear_errors"] = "<a href=\"#\" onclick=\"{\$js_link}\">Ikklikkja hawn</a> biex tinjora dawn il-messaġġi ta 'żball u sempliċement neħħi r-referenzi mid-database.";
+$L["notify_file_deleted_with_error"] = "<b>1</b> fajl tħassar b'suċċess, imma seħħew l-iżbalji li ġejjin";
+$L["notify_files_deleted_with_error"] = "fajls <b>{\$num_files}</b> tħassru b'suċċess, imma seħħew l-iżbalji li ġejjin";
+$L["notify_field_type_reset"] = "It-tip ta ’qasam ġie ssettjat mill-ġdid.";
+$L["notify_submission_updated_file_problems"] = "Is-sottomissjoni tiegħek ġiet aġġornata, imma sibna ma 'problemi:";
+$L["notify_upload_invalid_file_extension"] = "Il-fajl li qiegħed jitniżżel għandu estensjoni tal-fajl mhux appoġġata.";
+$L["notify_file_not_deleted_missing"] = "Il-fajl <b>{\$file}</b> ma ġiex imħassar għax ma jeżistix fil-folder mistenni (<b>{\$folder}</b>)";
+$L["notify_files_not_deleted_missing"] = "Il-fajls li ġejjin ma tħassrux għaliex ma jeżistux fil-folder mistenni (<b>{\$folder}</b>): <b>{\$file_list}</b>";
+$L["notify_upload_invalid_file_extensions"] = "Il-fajls li ġejjin għandhom estensjonijiet ta 'fajls mhux appoġġjati għall-qasam tagħhom: <b>{\$file_list}</b>";
+$L["notify_unable_to_copy_file_to_target_folder"] = "Il-fajls li ġejjin ma setgħux jiġu kkupjati fil-folder ta 'mira mill-post tat-upload temporanju tagħhom: <b>{\$file_list}</b>";
+$L["notify_num_files_deleted_with_problems"] = "fajls <b>{\$num_deleted}</b> tħassru, imma sibna mal-problemi li ġejjin:";
+$L["notify_file_missing_from_folder"] = "Il-fajl <b>{\$filename}</b> ma nstabx fil-folder: <b>{\$folder}</b>";
+$L["notify_files_missing"] = "Dawn il-fajls ma nstabux: <b>{\$file_list}</b>.";
+$L["notify_file_incorrect_permissions"] = "Il-fajl <b>{\$filename}</b> fil-folder <b>{\$folder} </b> ma kellux il-permessi tal-fajl it-tajjeb.";
+$L["notify_files_incorrect_permissions"] = "Dawn il-fajls ma setgħux jitneħħew minħabba permessi għall-fajls: <b>{\$file_list}</b>";
+$L["notify_file_unknown_reasons"] = "Il-fajl <b>{\$filename}</b> fil-folder <b>{\$folder}</b> ma setax jitneħħa għal raġunijiet mhux magħrufa.";
+$L["notify_files_unknown_reasons"] = "Dawn il-fajls ma setgħux jitneħħew minħabba raġunijiet mhux magħrufa: <b>{\$file_list}</b>";
+$L["phrase_reset_field_type"] = "Irrisettja Tip ta 'Qasam";
+$L["phrase_no_files_to_delete"] = "Ma hemm l-ebda fajl li tħassar.";
+$L["text_help"] = "Għal aktar informazzjoni dwar dan il-modulu, jekk jogħġbok ara l-<a href=\"https://modules.formtools.org/field_type_tinymce/\" target=\"_blank\">dokumentazzjoni ta 'għajnuna</a> fuq is-sit tal-Għodda tal-Formola.";
+$L["text_reset_field_type_desc"] = "Din il-buttuna hawn taħt ihallik issettja mill-ġdid dan it-tip ta 'qasam għall-aħħar nuqqasijiet fil-fabbrika. Ġeneralment ma jkollokx għalfejn tagħmel dan, imma fil-każ ta 'aġġornament fallut dan huwa mod sikur biex jiżgura li hu aġġornat.";
+$L["text_intro_desc"] = "Uża l-<a href=\"{\$link}\">Settings &raquo; Fajls</a> paġna biex tiddefinixxi l-issettjar ta 'upload default tal-fajl. Tista 'tegħleb dawk is-settings billi teditja kwalunkwe qasam tal-forma permezz tal-Edit Form &raquo; Fields tab.";
+$L["word_help"] = "Għajnuna";

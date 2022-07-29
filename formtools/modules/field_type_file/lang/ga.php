@@ -1,0 +1,40 @@
+<?php
+
+$L = array();
+$L["module_name"] = "Uaslódáil Comhad";
+
+$L["confirm_delete_submission_files"] = "An bhfuil tú cinnte gur mhaith leat na comhaid seo a scriosadh?";
+$L["module_description"] = "Soláthraíonn an modúl seo réimse uaslódáil comhad simplí le húsáid i do réimsí Uirlisí Foirme.";
+$L["notify_file_deleted"] = "Scriosadh an comhad.";
+$L["notify_file_too_large"] = "Tá an comhad <b>{\$filename}</b> ró-mhór. Ba é {\$file_size} KB an comhad, ach is é {\$max_file_size} KB an uasmhéid uaslódáil comhaid a cheadaítear.";
+$L["notify_files_deleted"] = "Scriosadh na comhaid.";
+$L["notify_files_too_large"] = "Tá na comhaid seo a leanas ró-mhór: <b>{\$file_list}</b>";
+$L["notify_submission_no_field_id"] = "Ní bhfuarthas ID réimse an aighneachta seo.";
+$L["notify_file_not_deleted_invalid_permissions"] = "Níorbh fhéidir an comhad <b>{\$filename}</b> sa fhillteán <b>{\$folder}</b> a scriosadh toisc nach raibh na ceadanna cuí aige.";
+$L["notify_files_not_deleted_invalid_permissions"] = "Níorbh fhéidir na comhaid seo a leanas a scriosadh toisc nach bhfuil na ceadanna cuí acu: <b>{\$file_list}</b>.";
+$L["notify_file_not_deleted_unknown_error"] = "Níorbh fhéidir an comhad <b>{\$filename}</b> sa fhillteán <b>{\$folder}</b> a scriosadh mar gheall ar earráid anaithnid.";
+$L["notify_files_not_deleted_unknown_errors"] = "Níorbh fhéidir na comhaid seo a leanas a scriosadh de bharr earráidí anaithnid: <b>{\$file_list}</b>.";
+$L["notify_clear_error"] = "<a href=\"#\" onclick=\"{\$js_link}\">Cliceáil anseo</a> chun neamhaird a dhéanamh ar an teachtaireacht earráide seo agus díreach an tagairt ón mbunachar sonraí a bhaint.";
+$L["notify_clear_errors"] = "<a href=\"#\" onclick=\"{\$js_link}\">Cliceáil anseo</a> chun neamhaird a dhéanamh ar na teachtaireachtaí earráide seo agus bain úsáid as na tagairtí ón mbunachar sonraí.";
+$L["notify_file_deleted_with_error"] = "Rinneadh scriosadh go rathúil ar chomhad <b>1</b>, ach tharla na hearráidí seo a leanas";
+$L["notify_files_deleted_with_error"] = "<b>{\$num_files}</b> a scriosadh go rathúil, ach tharla na hearráidí seo a leanas";
+$L["notify_field_type_reset"] = "Athshocraigh an cineál réimse.";
+$L["notify_submission_updated_file_problems"] = "Rinneadh nuashonrú ar d'aighneacht, ach bhí fadhbanna againn:";
+$L["notify_upload_invalid_file_extension"] = "Tá síneadh comhad gan tacaíocht sa chomhad atá á uaslódáil.";
+$L["notify_file_not_deleted_missing"] = "Níor scriosadh an comhad <b>{\$file}</b> toisc nach bhfuil sé i bhfillteán ionchais (<b>{\$folder}</b>)";
+$L["notify_files_not_deleted_missing"] = "Níor scriosadh na comhaid seo a leanas toisc nach bhfuil siad sa fhillteán ionchasach (<b>{\$folder}</b>): <b>{\$file_list}</b>";
+$L["notify_upload_invalid_file_extensions"] = "Níl síntí comhaid gan tacaíocht ag na comhaid seo a leanas dá réimse: <b>{\$file_list}</b>";
+$L["notify_unable_to_copy_file_to_target_folder"] = "Níorbh fhéidir na comhaid seo a leanas a chóipeáil chuig an bhfillteán sprioc ón suíomh uaslódáil sealadach: <b>{\$file_list}</b>";
+$L["notify_num_files_deleted_with_problems"] = "Scriosadh <b>{\$num_deleted}</b> comhaid, ach bhuailimid na fadhbanna seo a leanas:";
+$L["notify_file_missing_from_folder"] = "Níor aimsíodh an comhad <b>{\$filename}</b> sa fhillteán: <b>{\$folder}</b>";
+$L["notify_files_missing"] = "Níor aimsíodh na comhaid seo: <b>{\$file_list}</b>.";
+$L["notify_file_incorrect_permissions"] = "Ní raibh na ceadanna comhaid ceart ag an gcomhad <b>{\$filename}</b> sa bhfillteán <b>{\$folder}</b>.";
+$L["notify_files_incorrect_permissions"] = "Níorbh fhéidir na comhaid seo a bhaint de bharr ceadanna comhaid: <b>{\$file_list}</b>";
+$L["notify_file_unknown_reasons"] = "Níorbh fhéidir an comhad <b>{\$filename}</b> sa fhillteán <b>{\$folder}</b> a bhaint as cúiseanna anaithnid.";
+$L["notify_files_unknown_reasons"] = "Níorbh fhéidir na comhaid seo a bhaint de bharr cúiseanna anaithnid: <b>{\$file_list}</b>";
+$L["phrase_reset_field_type"] = "Athshocraigh Cineál Réimse";
+$L["phrase_no_files_to_delete"] = "Gan comhaid a scriosadh.";
+$L["text_help"] = "Chun tuilleadh eolais a fháil faoin modúl seo, féach an doiciméadú <a href=\"https://modules.formtools.org/field_type_tinymce/\" target=\"_blank\">do theachtaireacht</a> ar shuíomh Uirlisí Foirm.";
+$L["text_reset_field_type_desc"] = "Leis an gcnaipe seo thíos, ligeann duit an cineál réimse seo a athshocrú leis na mainneachtainí is déanaí sa mhonarcha. Go ginearálta ní gá duit é seo a dhéanamh, ach i gcás uasghrádú theipthe, is bealach sásúil é seo chun a chinntiú go bhfuil sé cothrom le dáta.";
+$L["text_intro_desc"] = "Bain úsáid as an <a href=\"{\$link}\">Socruithe &raquo; Comhaid</a> chun na socruithe réamhshocraithe uaslódáil comhaid a shainmhíniú. Is féidir leat na socruithe sin a mhaolú trí réimse d'fhoirm ar bith a eagrú tríd an bhFoirm Athraigh &raquo; Tab cluaisíní.";
+$L["word_help"] = "Cabhrú";

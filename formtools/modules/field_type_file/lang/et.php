@@ -1,0 +1,40 @@
+<?php
+
+$L = array();
+$L["module_name"] = "Faili üleslaadimine";
+
+$L["confirm_delete_submission_files"] = "Kas soovite kindlasti need failid kustutada?";
+$L["module_description"] = "See moodul pakub lihtsa faili üleslaadimise välja, mida saab kasutada vormivahendite väljadel.";
+$L["notify_file_deleted"] = "Fail on kustutatud.";
+$L["notify_file_too_large"] = "<b>{\$filename}</b> fail on liiga suur. Fail oli {\$file_size} KB, kuid maksimaalne lubatud faili üleslaadimise suurus on {\$max_file_size} KB.";
+$L["notify_files_deleted"] = "Failid on kustutatud.";
+$L["notify_files_too_large"] = "Järgmised failid on liiga suured: <b>{\$file_list}</b>";
+$L["notify_submission_no_field_id"] = "Selle esitamise välja ID-d ei leitud.";
+$L["notify_file_not_deleted_invalid_permissions"] = "<b>{\$folder}</b> kausta <b>{\$filename}</b> faili ei saa kustutada, kuna sellel ei olnud asjakohaseid õigusi.";
+$L["notify_files_not_deleted_invalid_permissions"] = "Järgmisi faile ei saa kustutada, kuna neil ei ole asjakohaseid õigusi: <b>{\$file_list}</b>.";
+$L["notify_file_not_deleted_unknown_error"] = "<b>{\$folder}</b> kausta <b>{\$filename}</b> faili ei saanud tundmatu vea tõttu kustutada.";
+$L["notify_files_not_deleted_unknown_errors"] = "Tundmatute vigade tõttu ei saa kustutada järgmisi faile: <b>{\$file_list}</b>.";
+$L["notify_clear_error"] = "<a href=\"#\" onclick=\"{\$js_link}\">Klõpsake siin</a>, et ignoreerida seda veateadet ja lihtsalt eemaldada viide andmebaasist.";
+$L["notify_clear_errors"] = "<a href=\"#\" onclick=\"{\$js_link}\">Klõpsake siin</a>, et ignoreerida neid veateateid ja lihtsalt eemaldada viited andmebaasist.";
+$L["notify_file_deleted_with_error"] = "<b>1</b> fail on edukalt kustutatud, kuid ilmnesid järgmised vead";
+$L["notify_files_deleted_with_error"] = "<b>{\$num_files}</b> failid kustutati edukalt, kuid ilmnesid järgmised vead";
+$L["notify_field_type_reset"] = "Välja tüüp on nullitud.";
+$L["notify_submission_updated_file_problems"] = "Teie esitamine on uuendatud, kuid meil oli probleeme:";
+$L["notify_upload_invalid_file_extension"] = "Üleslaaditud failil on toetamata faililaiend.";
+$L["notify_file_not_deleted_missing"] = "Fail <b>{\$file}</b> ei ole kustutatud, kuna seda ei ole oodatud kaustas (<b>{\$folder}</b>)";
+$L["notify_files_not_deleted_missing"] = "Järgmisi faile ei ole kustutatud, kuna neid ei ole oodatud kaustas (<b>{\$folder}</b>): <b>{\$file_list}</b>";
+$L["notify_upload_invalid_file_extensions"] = "Järgmistel failidel on oma väljale toetamata faililaiendid: <b>{\$file_list}</b>";
+$L["notify_unable_to_copy_file_to_target_folder"] = "Järgmisi faile ei olnud võimalik ajutisse üleslaadimise asukohast sihtkausta kopeerida: <b>{\$file_list}</b>";
+$L["notify_num_files_deleted_with_problems"] = "<b>{\$num_deleted}</b> failid kustutati, kuid meil olid järgmised probleemid:";
+$L["notify_file_missing_from_folder"] = "<b>{\$filename}</b> faili ei leitud kaustas: <b>{\$folder}</b>";
+$L["notify_files_missing"] = "Neid faile ei leitud: <b>{\$file_list}</b>.";
+$L["notify_file_incorrect_permissions"] = "<b>{\$folder}</b> kaustas oleval <b>{\$filename}</b> failil ei olnud õigeid failiload.";
+$L["notify_files_incorrect_permissions"] = "Neid faile ei saa faililubade tõttu eemaldada: <b>{\$file_list}</b>";
+$L["notify_file_unknown_reasons"] = "<b>{\$file}</b> kausta <b>{\$filename}</b> faili ei saanud tundmatu põhjustel eemaldada.";
+$L["notify_files_unknown_reasons"] = "Neid faile ei saanud teadmata põhjustel eemaldada: <b>{\$file_list}</b>";
+$L["phrase_reset_field_type"] = "Lähtesta välja tüüp";
+$L["phrase_no_files_to_delete"] = "Kustutatavaid faile pole.";
+$L["text_help"] = "Selle mooduli kohta lisateabe saamiseks vaadake <a href=\"https://modules.formtools.org/field_type_tinymce/\" target=\"_blank\">abivahendit</a> vormi tööriistade saidil.";
+$L["text_reset_field_type_desc"] = "See allolev nupp võimaldab teil selle välitüübi lähtestada uusimate tehase vaikesätetega. Üldiselt ei pea te seda tegema, kuid ebaõnnestunud versiooniuuenduse korral on see ebakindel viis tagada selle ajakohasus.";
+$L["text_intro_desc"] = "Kasutage <a href=\"{\$link}\">seadeid &raquo; Failide</a> vaikimisi faili üleslaadimise seadete määramiseks. Neid seadeid saab tühistada, redigeerides mis tahes vormivälja Redigeerimisvormi abil &raquo; Väljad vahekaardil.";
+$L["word_help"] = "Abi";

@@ -1,0 +1,40 @@
+<?php
+
+$L = array();
+$L["module_name"] = "Prijenos datoteke";
+
+$L["confirm_delete_submission_files"] = "Jeste li sigurni da želite izbrisati te datoteke?";
+$L["module_description"] = "Ovaj modul pruža jednostavno polje za prijenos datoteka za upotrebu u poljima Alati za obrasce.";
+$L["notify_file_deleted"] = "Datoteka je izbrisana.";
+$L["notify_file_too_large"] = "Datoteka <b>{\$filename}</b> je prevelika. Datoteka je bila {\$file_size} KB, ali maksimalna dopuštena veličina prijenosa datoteke je {\$max_file_size} KB.";
+$L["notify_files_deleted"] = "Datoteke su izbrisane.";
+$L["notify_files_too_large"] = "Sljedeće su datoteke prevelike: <b>{\$file_list}</b>";
+$L["notify_submission_no_field_id"] = "ID polja ovog podneska nije pronađen.";
+$L["notify_file_not_deleted_invalid_permissions"] = "Datoteka <b>{\$filename}</b> u mapi <b>{\$folder}</b> nije moguće izbrisati jer nije imala odgovarajuće dozvole.";
+$L["notify_files_not_deleted_invalid_permissions"] = "Sljedeće datoteke nije moguće izbrisati jer nemaju odgovarajuće dozvole: <b>{\$file_list}</b>.";
+$L["notify_file_not_deleted_unknown_error"] = "Datoteka <b>{\$filename}</b> u mapi <b>{\$folder}</b> nije mogla biti izbrisana zbog nepoznate pogreške.";
+$L["notify_files_not_deleted_unknown_errors"] = "Sljedeće datoteke nije moguće izbrisati zbog nepoznatih pogrešaka: <b>{\$file_list}</b>.";
+$L["notify_clear_error"] = "<a href=\"#\" onclick=\"{\$js_link}\">Kliknite ovdje</a> da biste ignorirali ovu poruku o pogrešci i jednostavno uklonili referencu iz baze podataka.";
+$L["notify_clear_errors"] = "<a href=\"#\" onclick=\"{\$js_link}\">Kliknite ovdje</a> da biste ignorirali ove poruke o pogreškama i jednostavno uklonili reference iz baze podataka.";
+$L["notify_file_deleted_with_error"] = "Datoteka <b>1</b> je uspješno izbrisana, ali su se pojavile sljedeće pogreške";
+$L["notify_files_deleted_with_error"] = "Datoteke <b>{\$num_files}</b> uspješno su izbrisane, ali su se pojavile sljedeće pogreške";
+$L["notify_field_type_reset"] = "Tip polja je poništen.";
+$L["notify_submission_updated_file_problems"] = "Vaš je unos ažuriran, ali smo naišli na probleme:";
+$L["notify_upload_invalid_file_extension"] = "Datoteka koja se prenosi ima nepodržanu ekstenzija datoteke.";
+$L["notify_file_not_deleted_missing"] = "Datoteka <b>{\$file}</b> nije izbrisana jer ne postoji u očekivanoj mapi (<b>{\$folder}</b>)";
+$L["notify_files_not_deleted_missing"] = "Sljedeće datoteke nisu izbrisane jer ne postoje u očekivanoj mapi (<b>{\$folder}</b>): <b>{\$file_list}</b>";
+$L["notify_upload_invalid_file_extensions"] = "Sljedeće datoteke imaju nepodržane ekstenzije datoteka za svoje polje: <b>{\$file_list}</b>";
+$L["notify_unable_to_copy_file_to_target_folder"] = "Sljedeće datoteke nije moguće kopirati u ciljnu mapu s njihove privremene lokacije za prijenos: <b>{\$file_list}</b>";
+$L["notify_num_files_deleted_with_problems"] = "<b>{\$num_deleted}</b> su izbrisane, ali smo naišli na sljedeće probleme:";
+$L["notify_file_missing_from_folder"] = "Datoteka <b>{\$filename}</b> nije pronađena u mapi: <b>{\$folder}</b>";
+$L["notify_files_missing"] = "Ove datoteke nisu pronađene: <b>{\$file_list}</b>.";
+$L["notify_file_incorrect_permissions"] = "Datoteka <b>{\$filename}</b> u mapi <b>{\$folder}</b> nije imala odgovarajuće dozvole za datoteke.";
+$L["notify_files_incorrect_permissions"] = "Te datoteke nije moguće ukloniti zbog dozvola za datoteke: <b>{\$file_list}</b>";
+$L["notify_file_unknown_reasons"] = "Datoteka <b>{\$filename}</b> u mapi <b>{\$folder}</b> nije moguće ukloniti iz nepoznatih razloga.";
+$L["notify_files_unknown_reasons"] = "Te datoteke nije moguće ukloniti zbog nepoznatih razloga: <b>{\$file_list}</b>";
+$L["phrase_reset_field_type"] = "Resetiraj vrstu polja";
+$L["phrase_no_files_to_delete"] = "Nema datoteka za brisanje.";
+$L["text_help"] = "Više informacija o ovom modulu potražite u <a href=\"https://modules.formtools.org/field_type_tinymce/\" target=\"_blank\">dokumentaciji za pomoć</a> na web-lokaciji alata za obrasce.";
+$L["text_reset_field_type_desc"] = "Ovaj gumb u nastavku omogućuje vam da vratite ovu vrstu polja na zadnje tvornički zadane. Općenito to ne morate učiniti, ali u slučaju neuspjele nadogradnje to je siguran način da se osigura da je ažuriran.";
+$L["text_intro_desc"] = "Use the <a href=\"{\$link}\">Settings &raquo; Files</a> page to define the default file upload settings. You can override those settings by editing any form field via the Edit Form &raquo; Fields tab.";
+$L["word_help"] = "Pomozite";

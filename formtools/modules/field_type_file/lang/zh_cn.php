@@ -1,0 +1,40 @@
+<?php
+
+$L = array();
+$L["module_name"] = "上传文件";
+
+$L["confirm_delete_submission_files"] = "您确定要删除这些文件吗？";
+$L["module_description"] = "此模块提供了一个简单的文件上载字段，可在“表单工具”字段中使用。";
+$L["notify_file_deleted"] = "该文件已被删除。";
+$L["notify_file_too_large"] = "<b>{\$filename}</b>文件太大。 该文件为{\$file_size} KB，但允许的最大文件上载大小为{\$max_file_size} KB。";
+$L["notify_files_deleted"] = "文件已被删除。";
+$L["notify_files_too_large"] = "以下文件太大：<b>{\$file_list}</b>";
+$L["notify_submission_no_field_id"] = "找不到此提交的字段ID。";
+$L["notify_file_not_deleted_invalid_permissions"] = "无法删除<b>{\$folder}</b>文件夹中的<b>{\$filename}</b>文件，因为它没有相应的权限。";
+$L["notify_files_not_deleted_invalid_permissions"] = "无法删除以下文件，因为它们没有相应的权限：<b>{\$file_list}</b>。";
+$L["notify_file_not_deleted_unknown_error"] = "由于未知错误，无法删除<b>{\$folder}</b>文件夹中的<b>{\$filename}</b>文件。";
+$L["notify_files_not_deleted_unknown_errors"] = "由于未知错误，无法删除以下文件：<b>{\$file_list}</b>。";
+$L["notify_clear_error"] = "<a href=\"#\" onclick=\"{\$js_link}\">单击此处</a>忽略此错误消息，只需从数据库中删除引用即可。";
+$L["notify_clear_errors"] = "<a href=\"#\" onclick=\"{\$js_link}\">单击此处</a>忽略这些错误消息，只需从数据库中删除引用即可。";
+$L["notify_file_deleted_with_error"] = "<b>1</b>文件已成功删除，但发生了以下错误";
+$L["notify_files_deleted_with_error"] = "<b>{\$num_files}</b>文件已成功删除，但发生了以下错误";
+$L["notify_field_type_reset"] = "字段类型已重置。";
+$L["notify_submission_updated_file_problems"] = "您的提交已更新，但我们遇到了问题：";
+$L["notify_upload_invalid_file_extension"] = "正在上传的文件具有不受支持的文件扩展名。";
+$L["notify_file_not_deleted_missing"] = "<b>{\$file}</b>文件尚未删除，因为它不存在于预期的文件夹中（<b>{\$folder}</b>）";
+$L["notify_files_not_deleted_missing"] = "以下文件尚未删除，因为它们不在预期的文件夹中（<b>{\$folder}</b>）：<b>{\$file_list}</b>";
+$L["notify_upload_invalid_file_extensions"] = "以下文件的字段包含不受支持的文件扩展名：<b>{\$file_list}</b>";
+$L["notify_unable_to_copy_file_to_target_folder"] = "无法将以下文件从其临时上载位置复制到目标文件夹：<b>{\$file_list}</b>";
+$L["notify_num_files_deleted_with_problems"] = "<b>{\$num_deleted}</b>文件已被删除，但我们遇到了以下问题：";
+$L["notify_file_missing_from_folder"] = "在文件夹中找不到<b>{\$filename}</b>文件：<b>{\$folder}</b>";
+$L["notify_files_missing"] = "找不到这些文件：<b>{\$file_list}</b>。";
+$L["notify_file_incorrect_permissions"] = "<b>{\$folder}</b>文件夹中的<b>{\$filename}</b>文件没有正确的文件权限。";
+$L["notify_files_incorrect_permissions"] = "由于文件权限，无法删除这些文件：<b>{\$file_list}</b>";
+$L["notify_file_unknown_reasons"] = "由于未知原因，无法删除<b>{\$folder}</b>文件夹中的<b>{\$filename}</b>文件。";
+$L["notify_files_unknown_reasons"] = "由于未知原因，无法删除这些文件：<b>{\$file_list}</b>";
+$L["phrase_reset_field_type"] = "重置字段类型";
+$L["phrase_no_files_to_delete"] = "没有要删除的文件。";
+$L["text_help"] = "有关此模块的详细信息，请参阅表单工具站点上的<a href=\"https://modules.formtools.org/field_type_tinymce/\" target=\"_blank\">帮助文档</a>。";
+$L["text_reset_field_type_desc"] = "下面的此按钮可让您将此字段类型重置为最新的出厂默认值。 通常你不必这样做，但是如果升级失败，这是一种确保它是最新的安全方法。";
+$L["text_intro_desc"] = "使用<a href=\"{\$link}\">设置&raquo; 文件</a>页面定义默认文件上载设置。 您可以通过编辑表格编辑任何表单字段来覆盖这些设置&raquo; 字段选项卡。";
+$L["word_help"] = "救命";

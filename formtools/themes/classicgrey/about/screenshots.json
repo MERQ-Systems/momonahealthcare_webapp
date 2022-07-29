@@ -1,0 +1,9 @@
+{
+  "screenshots": [
+    { "file": "screenshot2.gif", "desc": "The settings -> menu page" },
+    { "file": "screenshot3.gif", "desc": "Account page" },
+    { "file": "screenshot4.gif", "desc": "Field option groups page" },
+    { "file": "screenshot5.gif", "desc": "The settings -> themes page" },
+    { "file": "screenshot6.gif", "desc": "Form submissions page" }
+  ]
+}

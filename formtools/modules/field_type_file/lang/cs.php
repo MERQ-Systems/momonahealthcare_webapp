@@ -1,0 +1,40 @@
+<?php
+
+$L = array();
+$L["module_name"] = "Nahrání souboru";
+
+$L["confirm_delete_submission_files"] = "Opravdu chcete tyto soubory smazat?";
+$L["module_description"] = "Tento modul poskytuje pole pro jednoduché nahrání souborů, které se používá v poli Nástroje formuláře.";
+$L["notify_file_deleted"] = "Soubor byl smazán.";
+$L["notify_file_too_large"] = "Soubor <b>{\$filename}</b> je příliš velký. Soubor byl {\$file_size} KB, ale maximální povolená velikost souboru je {\$max_file_size} KB.";
+$L["notify_files_deleted"] = "Soubory byly smazány.";
+$L["notify_files_too_large"] = "Následující soubory jsou příliš velké: <b>{\$file_list}</b>";
+$L["notify_submission_no_field_id"] = "ID pole tohoto podání nebylo nalezeno.";
+$L["notify_file_not_deleted_invalid_permissions"] = "Soubor <b>{\$filename}</b> ve složce <b>{\$folder}</b> nelze odstranit, protože neměl příslušná oprávnění.";
+$L["notify_files_not_deleted_invalid_permissions"] = "Následující soubory nemohly být smazány, protože nemají příslušná oprávnění: <b>{\$file_list}</b>.";
+$L["notify_file_not_deleted_unknown_error"] = "Soubor <b>{\$filename}</b> ve složce <b>{\$folder}</b> nelze odstranit kvůli neznámé chybě.";
+$L["notify_files_not_deleted_unknown_errors"] = "Následující soubory nemohly být odstraněny z důvodu neznámých chyb: <b>{\$file_list}</b>.";
+$L["notify_clear_error"] = "<a href=\"#\" onclick=\"{\$js_link}\">Klikněte sem</a>, abyste ignorovali tuto chybovou zprávu a stačí odstranit odkaz z databáze.";
+$L["notify_clear_errors"] = "<a href=\"#\" onclick=\"{\$js_link}\">Kliknutím sem</a> ignorujete tyto chybové zprávy a stačí odstranit odkazy z databáze.";
+$L["notify_file_deleted_with_error"] = "Soubor <b>1</b> byl úspěšně smazán, ale došlo k následujícím chybám";
+$L["notify_files_deleted_with_error"] = "Soubory <b>{\$num_files}</b> byly úspěšně smazány, ale došlo k následujícím chybám";
+$L["notify_field_type_reset"] = "Typ pole byl resetován.";
+$L["notify_submission_updated_file_problems"] = "Vaše podání bylo aktualizováno, ale došlo k problémům:";
+$L["notify_upload_invalid_file_extension"] = "Nahraný soubor má nepodporovanou příponu souboru.";
+$L["notify_file_not_deleted_missing"] = "Soubor <b>{\$file}</b> nebyl odstraněn, protože ve složce (<b>{\$folder}</b>) neexistuje.";
+$L["notify_files_not_deleted_missing"] = "Následující soubory nebyly odstraněny, protože neexistují ve složce <b>{\$folder}</b>): <b>{\$file_list}</b>";
+$L["notify_upload_invalid_file_extensions"] = "Následující soubory mají pro své pole nepodporované přípony souborů: <b>{\$file_list}</b>";
+$L["notify_unable_to_copy_file_to_target_folder"] = "Následující soubory nemohly být zkopírovány do cílové složky z jejich dočasného umístění: <b>{\$file_list}</b>";
+$L["notify_num_files_deleted_with_problems"] = "Soubory <b>{\$num_deleted}</b> byly smazány, ale vyskytly se následující problémy:";
+$L["notify_file_missing_from_folder"] = "Soubor <b>{\$filename}</b> nebyl nalezen ve složce: <b>{\$folder}</b>";
+$L["notify_files_missing"] = "Tyto soubory nebyly nalezeny: <b>{\$file_list}</b>.";
+$L["notify_file_incorrect_permissions"] = "Soubor <b>{\$filename}</b> ve složce <b>{\$folder}</b> nemá oprávnění správného souboru.";
+$L["notify_files_incorrect_permissions"] = "Tyto soubory nelze odstranit z důvodu oprávnění k souborům: <b>{\$file_list}</b>";
+$L["notify_file_unknown_reasons"] = "Soubor <b>{\$filename}</b> ve složce <b>{\$folder}</b> nelze z neznámých důvodů odstranit.";
+$L["notify_files_unknown_reasons"] = "Tyto soubory nebyly odstraněny z neznámých důvodů: <b>{\$file_list}</b>";
+$L["phrase_reset_field_type"] = "Obnovit typ pole";
+$L["phrase_no_files_to_delete"] = "Žádné soubory, které chcete smazat.";
+$L["text_help"] = "Další informace o tomto modulu naleznete v <a href=\"https://modules.formtools.org/field_type_tinymce/\" target=\"_blank\">dokumentaci nápovědy</a> na webu nástroje Forms.";
+$L["text_reset_field_type_desc"] = "Toto tlačítko níže umožňuje obnovit tento typ pole na nejnovější výchozí nastavení. Obecně to nemusíte dělat, ale v případě neúspěšného upgradu je to bezchybný způsob, jak zajistit, že je to aktuální.";
+$L["text_intro_desc"] = "Použijte <a href=\"{\$link}\">Nastavení &raquo; Soubory</a> a definujte výchozí nastavení nahrávání souborů. Tyto nastavení můžete přepsat úpravou libovolného pole formuláře pomocí formuláře Edit &raquo; Karta Pole.";
+$L["word_help"] = "Pomoc";

@@ -1,0 +1,40 @@
+<?php
+
+$L = array();
+$L["module_name"] = "Fájlfeltöltés";
+
+$L["confirm_delete_submission_files"] = "Biztosan törölni szeretné ezeket a fájlokat?";
+$L["module_description"] = "Ez a modul egy egyszerű fájl feltöltési mezőt biztosít az űrlap-eszközök mezőiben.";
+$L["notify_file_deleted"] = "A fájl törölve lett.";
+$L["notify_file_too_large"] = "A <b>{\$filename}</b> fájl túl nagy. A fájl {\$file_size} KB volt, de a legnagyobb megengedett fájlméret {\$max_file_size} KB.";
+$L["notify_files_deleted"] = "A fájlokat törölték.";
+$L["notify_files_too_large"] = "A következő fájlok túl nagyok: <b>{\$file_list}</b>";
+$L["notify_submission_no_field_id"] = "Ez a benyújtási mező azonosítója nem található.";
+$L["notify_file_not_deleted_invalid_permissions"] = "A <b>{\$filename}</b> mappában található <b>{\$folder}</b> fájlt nem lehet törölni, mert nem rendelkezik megfelelő jogosultságokkal.";
+$L["notify_files_not_deleted_invalid_permissions"] = "A következő fájlokat nem lehetett törölni, mert nem rendelkeznek a megfelelő engedélyekkel: <b>{\$file_list}</b>.";
+$L["notify_file_not_deleted_unknown_error"] = "A <b>{\$filename}</b> fájlt a <b>{\$folder}</b> mappában nem lehetett törölni ismeretlen hiba miatt.";
+$L["notify_files_not_deleted_unknown_errors"] = "Az alábbi fájlokat nem lehetett törölni ismeretlen hibák miatt: <b>{\$file_list}</b>.";
+$L["notify_clear_error"] = "<a href=\"#\" onclick=\"{\$js_link}\">Kattintson ide</a>, hogy figyelmen kívül hagyja ezt a hibaüzenetet, és csak távolítsa el a hivatkozást az adatbázisból.";
+$L["notify_clear_errors"] = "<a href=\"#\" onclick=\"{\$js_link}\">Kattintson ide</a>, hogy figyelmen kívül hagyja ezeket a hibaüzeneteket, és csak távolítsa el a hivatkozásokat az adatbázisból.";
+$L["notify_file_deleted_with_error"] = "A <b>1</b> fájlt sikeresen törölte, de a következő hibák jelentkeztek";
+$L["notify_files_deleted_with_error"] = "A <b>{\$num_files}</b> fájlokat sikeresen törölték, de a következő hibák jelentkeztek";
+$L["notify_field_type_reset"] = "A mező típusa visszaállt.";
+$L["notify_submission_updated_file_problems"] = "A beadványodat frissítettük, de problémák merültek fel:";
+$L["notify_upload_invalid_file_extension"] = "A feltöltött fájl nem támogatja a fájl kiterjesztését.";
+$L["notify_file_not_deleted_missing"] = "A <b>{\$file}</b> fájl nem lett törölve, mert nem létezik a várt mappában (<b>{\$folder}</b>)";
+$L["notify_files_not_deleted_missing"] = "A következő fájlokat nem törölték, mert nem léteznek a várt mappában (<b>{\$folder}</b>): <b>{\$file_list}</b>";
+$L["notify_upload_invalid_file_extensions"] = "A következő fájlok nem támogatott fájlkiterjesztésekkel rendelkeznek: <b>{\$file_list}</b>";
+$L["notify_unable_to_copy_file_to_target_folder"] = "Az alábbi fájlokat nem lehetett átmásolni a célmappába ideiglenes feltöltési helyükről: <b>{\$file_list}</b>";
+$L["notify_num_files_deleted_with_problems"] = "A <b>{\$num_deleted}</b> fájlokat törölték, de a következő problémákat tapasztaltuk:";
+$L["notify_file_missing_from_folder"] = "A <b>{\$filename}</b> fájl nem található a következő mappában: <b>{\$folder}</b>";
+$L["notify_files_missing"] = "Ezeket a fájlokat nem találta: <b>{\$file_list}</b>.";
+$L["notify_file_incorrect_permissions"] = "A <b>{\$filename}</b> fájl a <b>{\$folder}</b> mappában nem rendelkezett a megfelelő fájlengedélyekkel.";
+$L["notify_files_incorrect_permissions"] = "Ezeket a fájlokat nem lehetett eltávolítani a fájlengedélyek miatt: <b>{\$file_list}</b>";
+$L["notify_file_unknown_reasons"] = "A <b>{\$filename}</b> fájl a <b>{\$folder}</b> mappában ismeretlen okok miatt nem távolítható el.";
+$L["notify_files_unknown_reasons"] = "Ezeket a fájlokat ismeretlen okok miatt nem lehetett eltávolítani: <b>{\$file_list}</b>";
+$L["phrase_reset_field_type"] = "A mezőtípus visszaállítása";
+$L["phrase_no_files_to_delete"] = "Nincs törölni kívánt fájl.";
+$L["text_help"] = "A modulról további információért olvassa el a <a href=\"https://modules.formtools.org/field_type_tinymce/\" target=\"_blank\">súgó dokumentációt</a> az űrlapeszközök oldalán.";
+$L["text_reset_field_type_desc"] = "Az alábbi gomb segítségével visszaállíthatja ezt a mezőt a legújabb gyári alapértékekre. Általában nem kell ezt megtenni, de nem sikerült frissítés esetén ez nem biztonságos módja annak, hogy naprakész legyen.";
+$L["text_intro_desc"] = "Használja a <a href=\"{\$link}\">Beállítások &raquo; Fájlok</a> az alapértelmezett fájl feltöltési beállításainak meghatározásához. Ezeket a beállításokat felülírhatja bármely űrlapmező szerkesztésével a Szerkesztés űrlapon &raquo; A mezők lapja.";
+$L["word_help"] = "Segítség";

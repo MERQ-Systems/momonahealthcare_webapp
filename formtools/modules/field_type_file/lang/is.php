@@ -1,0 +1,40 @@
+<?php
+
+$L = array();
+$L["module_name"] = "Skráafjöldi";
+
+$L["confirm_delete_submission_files"] = "Ertu viss um að þú viljir eyða þessum skrám?";
+$L["module_description"] = "Þessi eining veitir einfalt skráarsendissvæði til notkunar í formasvæðinu.";
+$L["notify_file_deleted"] = "Skráin hefur verið eytt.";
+$L["notify_file_too_large"] = "Skráin <b>{\$filename}</b> er of stór. Skráin var {\$file_size} KB, en hámarks leyfileg skráarsendingastærð er {\$max_file_size} KB.";
+$L["notify_files_deleted"] = "Skrárnar hafa verið eytt.";
+$L["notify_files_too_large"] = "Eftirfarandi skrár eru of stórar: <b>{\$file_list}</b>";
+$L["notify_submission_no_field_id"] = "Reitinn fyrir þetta uppgjöf fannst ekki.";
+$L["notify_file_not_deleted_invalid_permissions"] = "Skráin <b>{\$filename}</b> í möppuna <b>{\$mappa}</b> gæti ekki verið eytt vegna þess að hún hafði ekki viðeigandi heimildir.";
+$L["notify_files_not_deleted_invalid_permissions"] = "Ekki var hægt að eyða eftirfarandi skrám vegna þess að þau hafa ekki viðeigandi heimildir: <b>{\$file_list}</b>.";
+$L["notify_file_not_deleted_unknown_error"] = "Skráin <b>{\$filename}</b> í möppuna <b>{\$mappa}</b> gæti ekki verið eytt vegna óþekktrar villu.";
+$L["notify_files_not_deleted_unknown_errors"] = "Eftirfarandi skrár voru ekki hægt að eyða vegna óþekktra villna: <b>{\$file_list}</b>.";
+$L["notify_clear_error"] = "<a href=\"#\" onclick=\"{\$js_link}\">Smelltu hér</a> til að hunsa þessa villuboð og fjarlægðu bara tilvísunina úr gagnagrunninum.";
+$L["notify_clear_errors"] = "<a href=\"#\" onclick=\"{\$js_link}\">Smelltu hér</a> til að hunsa þessar villuboð og bara fjarlægja tilvísanirnar úr gagnagrunninum.";
+$L["notify_file_deleted_with_error"] = "<b>1</b> skráin var eytt með góðum árangri en eftirfarandi villur áttu sér stað";
+$L["notify_files_deleted_with_error"] = "<b>{\$num_files}</b> skrár voru eytt með góðum árangri en eftirfarandi villur áttu sér stað";
+$L["notify_field_type_reset"] = "Reitinn hefur verið endurstilltur.";
+$L["notify_submission_updated_file_problems"] = "Uppgjöf þín var uppfærð, en við lentum í vandræðum:";
+$L["notify_upload_invalid_file_extension"] = "Skráin sem hlaðið er upp hefur óstuddan skrá eftirnafn.";
+$L["notify_file_not_deleted_missing"] = "Skráin <b>{\$file}</b> hefur ekki verið eytt vegna þess að hún er ekki til í áætluðu möppunni (<b>{\$mappa}</b>)";
+$L["notify_files_not_deleted_missing"] = "Eftirfarandi skrár hafa ekki verið eytt vegna þess að þær eru ekki til í áætlaðri möppu (<b>{\$mappa}</b>): <b>{\$file_list}</b>";
+$L["notify_upload_invalid_file_extensions"] = "Eftirfarandi skrár hafa óstuddar skráarnafnstillingar fyrir reitinn þeirra: <b>{\$file_list}</b>";
+$L["notify_unable_to_copy_file_to_target_folder"] = "Ekki var hægt að afrita eftirfarandi skrár í miða möppuna frá tímabundinni upphleðslustað: <b>{\$file_list}</b>";
+$L["notify_num_files_deleted_with_problems"] = "<b>{\$num_deleted}</b> skrár voru eytt, en við fundum eftirfarandi vandamál:";
+$L["notify_file_missing_from_folder"] = "Skráin <b>{\$filename}</b> fannst ekki í möppunni: <b>{\$folder}</b>";
+$L["notify_files_missing"] = "Þessar skrár fundust ekki: <b>{\$file_list}</b>.";
+$L["notify_file_incorrect_permissions"] = "Skráin <b>{\$filename}</b> í möppunni <b>{\$folder}</b> hafði ekki réttar skráarheimildir.";
+$L["notify_files_incorrect_permissions"] = "Þessar skrár voru ekki hægt að fjarlægja vegna skrárleyfis: <b>{\$file_list}</b>";
+$L["notify_file_unknown_reasons"] = "Þessar skrár voru ekki hægt að fjarlægja vegna skrárleyfis: <b>{\$file_list}</b>";
+$L["notify_files_unknown_reasons"] = "Þessar skrár voru ekki hægt að fjarlægja vegna óþekktra ástæðna: <b>{\$file_list}</b>";
+$L["phrase_reset_field_type"] = "Endurstilla reitategund";
+$L["phrase_no_files_to_delete"] = "Engar skrár til að eyða.";
+$L["text_help"] = "Nánari upplýsingar um þennan einingu er að finna í <a href=\"https://modules.formtools.org/field_type_tinymce/\" target=\"_blank\">hjálpardagbókina</a> á síðunni Form Tools.";
+$L["text_reset_field_type_desc"] = "Þessi hnappur hér að neðan gerir þér kleift að endurstilla þessa reitategund í nýjustu verksmiðjustillingar. Venjulega þarftu ekki að gera þetta, en ef mistekist uppfærsla er þetta óöruggur leið til að tryggja að það sé uppfært.";
+$L["text_intro_desc"] = "Notaðu <a href=\"{\$link}\">Stillingar &raquo; Skrár</a> síðu til að skilgreina sjálfgefnar stillingar skráarupphæð. Þú getur hunsað þessar stillingar með því að breyta hvaða eyðublað sem er með því að nota Breyta eyðublaðinu &raquo; Flipa flipa.";
+$L["word_help"] = "Hjálp";

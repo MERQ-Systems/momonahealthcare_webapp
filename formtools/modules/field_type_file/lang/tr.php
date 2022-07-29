@@ -1,0 +1,40 @@
+<?php
+
+$L = array();
+$L["module_name"] = "Dosya yükleme";
+
+$L["confirm_delete_submission_files"] = "Bu dosyaları silmek istediğinize emin misiniz?";
+$L["module_description"] = "Bu modül, Form Araçları alanlarınızda kullanmak için basit bir dosya yükleme alanı sağlar.";
+$L["notify_file_deleted"] = "Dosya silindi.";
+$L["notify_file_too_large"] = "<b>{\$filename}</b> dosyası çok büyük. Dosya {\$file_size} KB, ancak izin verilen maksimum dosya yükleme boyutu {\$max_file_size} KB.";
+$L["notify_files_deleted"] = "Dosyalar silindi.";
+$L["notify_files_too_large"] = "Aşağıdaki dosyalar çok büyük: <b>{\$file_list}</b>";
+$L["notify_submission_no_field_id"] = "Bu gönderinin alan kimliği bulunamadı.";
+$L["notify_file_not_deleted_invalid_permissions"] = "<b>{\$folder}</b> klasöründeki <b>{\$filename}</b> dosyası uygun izinlere sahip olmadığı için silinemedi.";
+$L["notify_files_not_deleted_invalid_permissions"] = "Uygun dosyalar bulunmadığından aşağıdaki dosyalar silinemedi: <b>{\$file_list}</b>.";
+$L["notify_file_not_deleted_unknown_error"] = "<b>{\$folder}</b> klasöründeki <b>{\$filename}</b> dosyası bilinmeyen bir hata nedeniyle silinemedi.";
+$L["notify_files_not_deleted_unknown_errors"] = "Aşağıdaki dosyalar bilinmeyen hatalar nedeniyle silinemedi: <b>{\$file_list}</b>.";
+$L["notify_clear_error"] = "Bu hata iletisini yoksaymak ve başvuruyu veritabanından kaldırmak için <a href=\"#\" onclick=\"{\$js_link}\">burayı tıklayın</a>.";
+$L["notify_clear_errors"] = "Bu hata iletilerini yoksaymak ve başvuruları veritabanından kaldırmak için <a href=\"#\" onclick=\"{\$js_link}\">burayı tıklayın</a>.";
+$L["notify_file_deleted_with_error"] = "<b>1</b> dosya başarıyla silindi, ancak aşağıdaki hatalar oluştu";
+$L["notify_files_deleted_with_error"] = "<b>{\$num_files}</b> dosyalar başarıyla silindi, ancak aşağıdaki hatalar oluştu";
+$L["notify_field_type_reset"] = "Alan tipi sıfırlandı.";
+$L["notify_submission_updated_file_problems"] = "Gönderiminiz güncellendi, ancak sorunla karşılaştık:";
+$L["notify_upload_invalid_file_extension"] = "Yüklenmekte olan dosya desteklenmeyen bir dosya uzantısına sahip.";
+$L["notify_file_not_deleted_missing"] = "Beklenen klasörde olmadığı için <b>{\$file}</b> dosyası silinmedi (<b>{\$folder}</b>)";
+$L["notify_files_not_deleted_missing"] = "Aşağıdaki dosyalar beklenen klasörde bulunmadığından silinmedi (<b>{\$folder}</b>): <b>{\$file_list}</b>";
+$L["notify_upload_invalid_file_extensions"] = "Aşağıdaki dosyalar kendi alanları için desteklenmeyen dosya uzantılarına sahip: <b>{\$file_list}</b>";
+$L["notify_unable_to_copy_file_to_target_folder"] = "Aşağıdaki dosyalar geçici yükleme konumlarından hedef klasöre kopyalanamadı: <b>{\$file_list}</b>";
+$L["notify_num_files_deleted_with_problems"] = "<b>{\$num_deleted}</b> dosyalar silindi, ancak aşağıdaki sorunlarla karşılaştık:";
+$L["notify_file_missing_from_folder"] = "The <b>{\$filename}</b> file was not found in the folder: <b>{\$folder}</b>";
+$L["notify_files_missing"] = "Bu dosyalar bulunamadı: <b>{\$file_list}</b>.";
+$L["notify_file_incorrect_permissions"] = "<b>{\$folder}</b> klasöründeki <b>{\$filename}</b> dosyası doğru dosya izinlerine sahip değildi.";
+$L["notify_files_incorrect_permissions"] = "Bu dosyalar dosya izinleri nedeniyle kaldırılamadı: <b>{\$file_list}</b>";
+$L["notify_file_unknown_reasons"] = "<b>{\$folder}</b> klasöründeki <b>{\$filename}</b> dosyası bilinmiyor.";
+$L["notify_files_unknown_reasons"] = "Bu dosyalar bilinmeyen nedenlerden dolayı kaldırılamadı: <b>{\$file_list}</b>";
+$L["phrase_reset_field_type"] = "Alan Tipini Sıfırla";
+$L["phrase_no_files_to_delete"] = "Silinecek dosya yok.";
+$L["text_help"] = "Bu modül hakkında daha fazla bilgi için, lütfen Form Araçları sitesindeki <a href=\"https://modules.formtools.org/field_type_tinymce/\" target=\"_blank\">yardım belgelerine</a> bakın.";
+$L["text_reset_field_type_desc"] = "Aşağıdaki düğme, bu alan türünü en son fabrika ayarlarına sıfırlamanızı sağlar. Genelde bunu yapmak zorunda değilsiniz, ancak başarısız bir yükseltme durumunda, güncel kalmasını sağlamak için güvenli bir yoldur.";
+$L["text_intro_desc"] = "<a href=\"{\$link}\">Ayarlar &raquo; Varsayılan dosya yükleme ayarlarını tanımlamak için Dosyalar</a> sayfası. Herhangi bir form alanını Formu Düzenle ile düzenleyerek bu ayarları geçersiz kılabilirsiniz. Alanlar sekmesi.";
+$L["word_help"] = "yardım et";

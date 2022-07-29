@@ -1,0 +1,40 @@
+<?php
+
+$L = array();
+$L["module_name"] = "Tiedoston lataus";
+
+$L["confirm_delete_submission_files"] = "Haluatko varmasti poistaa nämä tiedostot?";
+$L["module_description"] = "Tämä moduuli tarjoaa yksinkertaisen tiedostonlatauskentän käytettäväksi lomakekohtaisissa kentissä.";
+$L["notify_file_deleted"] = "Tiedosto on poistettu.";
+$L["notify_file_too_large"] = "<b>{\$filename}</b>-tiedosto on liian suuri. Tiedosto oli {\$file_size} KB, mutta suurin sallittu tiedostojen latauskoko on {\$max_file_size} KB.";
+$L["notify_files_deleted"] = "Tiedostot on poistettu.";
+$L["notify_files_too_large"] = "Seuraavat tiedostot ovat liian suuria: <b>{\$file_list}</b>";
+$L["notify_submission_no_field_id"] = "Tämän hakemuksen kentän tunnusta ei löytynyt.";
+$L["notify_file_not_deleted_invalid_permissions"] = "<b>{\$folder}</b>-kansiossa olevaa <b>{\$filename}</b>-tiedostoa ei voitu poistaa, koska sillä ei ollut asianmukaisia oikeuksia.";
+$L["notify_files_not_deleted_invalid_permissions"] = "Seuraavia tiedostoja ei voitu poistaa, koska niillä ei ole asianmukaisia oikeuksia: <b>{\$file_list}</b>.";
+$L["notify_file_not_deleted_unknown_error"] = "<b>{\$file}</b>-kansiossa olevaa <b>{\$filename}</b>-tiedostoa ei voitu poistaa, koska tuntematon virhe.";
+$L["notify_files_not_deleted_unknown_errors"] = "Seuraavia tiedostoja ei voitu poistaa tuntemattomien virheiden vuoksi: <b>{\$file_list}</b>.";
+$L["notify_clear_error"] = "<a href=\"#\" onclick=\"{\$js_link}\">Napsauta tätä</a>, jos haluat ohittaa tämän virhesanoman ja poistaa viitteen vain tietokannasta.";
+$L["notify_clear_errors"] = "<a href=\"#\" onclick=\"{\$js_link}\">Napsauta tätä</a>, jos haluat jättää nämä virheilmoitukset huomiotta, ja poista vain viittaukset tietokannasta.";
+$L["notify_file_deleted_with_error"] = "<b>1</b>-tiedosto poistettiin onnistuneesti, mutta seuraavat virheet tapahtuivat";
+$L["notify_files_deleted_with_error"] = "<b>{\$num_files}</b>-tiedostot poistettiin onnistuneesti, mutta seuraavat virheet tapahtuivat";
+$L["notify_field_type_reset"] = "Kenttätyyppi on nollattu.";
+$L["notify_submission_updated_file_problems"] = "Hakemuksesi päivitettiin, mutta meillä oli ongelmia:";
+$L["notify_upload_invalid_file_extension"] = "Ladattavan tiedoston tiedostotunniste ei ole tuettu.";
+$L["notify_file_not_deleted_missing"] = "<b>{\$file}</b>-tiedostoa ei ole poistettu, koska sitä ei ole odotetussa kansiossa (<b>{\$folder}</b>)";
+$L["notify_files_not_deleted_missing"] = "Seuraavia tiedostoja ei ole poistettu, koska niitä ei ole odotetussa kansiossa (<b>{\$folder}</b>): <b>{\$file_list}</b>";
+$L["notify_upload_invalid_file_extensions"] = "Seuraavien tiedostojen tiedostotunnisteita ei tueta kenttään: <b>{\$file_list}</b>";
+$L["notify_unable_to_copy_file_to_target_folder"] = "Seuraavia tiedostoja ei voitu kopioida kohdekansioon niiden väliaikaisesta latauspaikasta: <b>{\$file_list}</b>";
+$L["notify_num_files_deleted_with_problems"] = "<b>{\$num_deleted}</b>-tiedostot poistettiin, mutta meillä oli seuraavat ongelmat:";
+$L["notify_file_missing_from_folder"] = "<b>{\$filename}</b>-tiedostoa ei löytynyt kansiosta: <b>{\$folder}</b>";
+$L["notify_files_missing"] = "Näitä tiedostoja ei löytynyt: <b>{\$file_list}</b>.";
+$L["notify_file_incorrect_permissions"] = "<b>{\$folder}</b>-kansiossa <b>{\$filename}</b>-kansiossa ei ollut oikeita tiedostooikeuksia.";
+$L["notify_files_incorrect_permissions"] = "Näitä tiedostoja ei voitu poistaa tiedostojen käyttöoikeuksien vuoksi: <b>{\$file_list}</b>";
+$L["notify_file_unknown_reasons"] = "<b>{\$folder}</b>-kansiossa olevaa <b>{\$filename}</b>-tiedostoa ei voitu poistaa tuntemattomista syistä.";
+$L["notify_files_unknown_reasons"] = "Näitä tiedostoja ei voitu poistaa tuntemattomista syistä: <b>{\$file_list}</b>";
+$L["phrase_reset_field_type"] = "Nollaa kenttätyyppi";
+$L["phrase_no_files_to_delete"] = "Ei poistettavia tiedostoja.";
+$L["text_help"] = "Lisätietoja tästä moduulista on <a href=\"https://modules.formtools.org/field_type_tinymce/\" target=\"_blank\">ohjeasiakirjoissa</a> lomakkeen työkalut-sivustossa.";
+$L["text_reset_field_type_desc"] = "Tämän alla olevan painikkeen avulla voit palauttaa tämän kenttätyypin uusimpiin tehdasasetuksiin. Yleensä sinun ei tarvitse tehdä tätä, mutta jos kyseessä on epäonnistunut päivitys, tämä on turvallinen tapa varmistaa, että se on ajan tasalla.";
+$L["text_intro_desc"] = "Käytä <a href=\"{\$link}\">Asetuksia &raquo; Tiedostot</a>-sivulla voit määrittää oletustiedostojen latausasetukset. Voit ohittaa nämä asetukset muokkaamalla minkä tahansa lomakekentän Muokkaa lomaketta & raquo; Kentät-välilehti.";
+$L["word_help"] = "auta";

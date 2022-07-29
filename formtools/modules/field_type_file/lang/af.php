@@ -1,0 +1,40 @@
+<?php
+
+$L = array();
+$L["module_name"] = "Lêeroplaai";
+
+$L["confirm_delete_submission_files"] = "Is jy seker jy wil hierdie lêers uitvee?";
+$L["module_description"] = "Hierdie module bied u0026 # 39; n eenvoudige lêer upload veld vir gebruik in jou vorm gereedskap velde.";
+$L["notify_file_deleted"] = "Die lêer is verwyder.";
+$L["notify_file_too_large"] = "Die lêer <b>{\$filename}</b> is te groot. Die lêer was {\$file_size} KB, maar die maksimum toegelate lêeroplaaigrootte is {\$max_file_size} KB.";
+$L["notify_files_deleted"] = "Die lêers is verwyder.";
+$L["notify_files_too_large"] = "Die volgende lêers is te groot: <b>{\$file_list}</b>";
+$L["notify_submission_no_field_id"] = "Hierdie voorlegging se veld ID is nie gevind nie.";
+$L["notify_file_not_deleted_invalid_permissions"] = "Die lêer <b>{\$lêernaam}</b> in die gids <b>{\$folder}</b> kan nie verwyder word nie omdat dit nie die regte regte het nie.";
+$L["notify_files_not_deleted_invalid_permissions"] = "Die volgende lêers kon nie uitgevee word nie omdat hulle nie die regte regte het nie: <b>{\$file_list}</b>.";
+$L["notify_file_not_deleted_unknown_error"] = "Die lêer <b>{\$lêernaam}</b> in die gids <b>{\$folder}</b> kan nie verwyder word nie weens 'n onbekende fout.";
+$L["notify_files_not_deleted_unknown_errors"] = "Die volgende lêers kon nie verwyder word weens onbekende foute: <b>{\$file_list}</b>.";
+$L["notify_clear_error"] = "<a href=\"#\" onclick=\"{\$js_link}\">Klik hier</a> om hierdie foutboodskap te ignoreer en verwyder die verwysing uit die databasis.";
+$L["notify_clear_errors"] = "<a href=\"#\" onclick=\"{\$js_link}\">Klik hier</a> om hierdie foutboodskappe te ignoreer en verwyder die verwysings uit die databasis.";
+$L["notify_file_deleted_with_error"] = "<b>1</b> lêer is suksesvol verwyder, maar die volgende foute het voorgekom";
+$L["notify_files_deleted_with_error"] = "<b>{\$num_files}</b> lêers is suksesvol verwyder, maar die volgende foute het voorgekom";
+$L["notify_field_type_reset"] = "Die veldtipe is herstel.";
+$L["notify_submission_updated_file_problems"] = "Jou voorlegging is opgedateer, maar ons het probleme ondervind:";
+$L["notify_upload_invalid_file_extension"] = "Die lêer wat opgelaai word, het 'n nie-ondersteunde lêeruitbreiding.";
+$L["notify_file_not_deleted_missing"] = "Die lêer <b>{\$file}</b> is nie verwyder nie omdat dit nie in die verwagte gids bestaan nie (<b>{\$folder}</b>)";
+$L["notify_files_not_deleted_missing"] = "Die volgende lêers is nie verwyder nie omdat dit nie in die verwagte vouer bestaan nie (<b>{\$folder}</b>): <b>{\$file_list}</b>";
+$L["notify_upload_invalid_file_extensions"] = "Die volgende lêers het nie-ondersteunde lêeruitbreidings vir hul veld: <b>{\$file_list}</b>";
+$L["notify_unable_to_copy_file_to_target_folder"] = "Die volgende lêers kon nie na die doelmap gekopieer word vanaf hul tydelike oplaaiplek nie: <b>{\$file_list}</b>";
+$L["notify_num_files_deleted_with_problems"] = "<b>{\$num_deleted}</b> lêers is verwyder, maar ons het die volgende probleme ondervind:";
+$L["notify_file_missing_from_folder"] = "Die lêer <b>{\$filename}</b> is nie in die gids gevind nie: <b>{\$folder}</b>";
+$L["notify_files_missing"] = "Hierdie lêers is nie gevind nie: <b>{\$file_list}</b>.";
+$L["notify_file_incorrect_permissions"] = "Die lêer <b>{\$filename}</b> in die gids <b>{\$folder}</b> het nie die regte lêerpermitte nie.";
+$L["notify_files_incorrect_permissions"] = "Hierdie lêers kon nie verwyder word nie as gevolg van lêertoestemmings: <b>{\$file_list}</b>";
+$L["notify_file_unknown_reasons"] = "Die lêer <b>{\$filename}</b> in die gids <b>{\$folder}</b> kan nie vir onbekende redes verwyder word nie.";
+$L["notify_files_unknown_reasons"] = "Hierdie lêers kon nie verwyder word weens onbekende redes: <b>{\$file_list}</b>";
+$L["phrase_reset_field_type"] = "Stel veldtipe terug";
+$L["phrase_no_files_to_delete"] = "Geen lêers om te verwyder nie.";
+$L["text_help"] = "Vir meer inligting oor hierdie module, raadpleeg die <a href=\"https://modules.formtools.org/field_type_tinymce/\" target=\"_blank\">hulpdokumentasie</a> op die webwerf Formularium gereedskap.";
+$L["text_reset_field_type_desc"] = "Met hierdie knoppie hieronder kan u hierdie veldtipe terugstel na die nuutste fabrieksinstellings. Oor die algemeen hoef jy dit nie te doen nie, maar in die geval van 'n mislukte opgradering, is dit 'n foutiewe manier om te verseker dat dit op datum is.";
+$L["text_intro_desc"] = "Gebruik die <a href=\"{\$link}\">Instellings &raquo; Lêers</a> om die standaard lêeroplaaierinstellings te definieer. U kan daardie instellings ignoreer deur enige vormsveld te redigeer via die vorm Wysig &raquo; Velds oortjie.";
+$L["word_help"] = "Help";

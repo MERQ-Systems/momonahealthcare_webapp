@@ -1,0 +1,40 @@
+<?php
+
+$L = array();
+$L["module_name"] = "Datei-Upload";
+
+$L["confirm_delete_submission_files"] = "Möchten Sie diese Dateien wirklich löschen?";
+$L["module_description"] = "Dieses Modul stellt ein einfaches Feld zum Hochladen von Dateien zur Verwendung in den Feldern der Formulartools bereit.";
+$L["notify_file_deleted"] = "Die Datei wurde gelöscht.";
+$L["notify_file_too_large"] = "Die Datei <b>{\$filename}</b> ist zu groß. Die Datei war {\$file_size} KB, aber die maximal zulässige Dateigröße beträgt {\$max_file_size} KB.";
+$L["notify_files_deleted"] = "Die Dateien wurden gelöscht.";
+$L["notify_files_too_large"] = "Die folgenden Dateien sind zu groß: <b>{\$file_list}</b>";
+$L["notify_submission_no_field_id"] = "Die Feld-ID dieses Beitrags wurde nicht gefunden.";
+$L["notify_file_not_deleted_invalid_permissions"] = "Die Datei <b>{\$filename}</b> im Ordner <b>{\$folder}</b> konnte nicht gelöscht werden, da sie nicht über die erforderlichen Berechtigungen verfügt.";
+$L["notify_files_not_deleted_invalid_permissions"] = "Die folgenden Dateien konnten nicht gelöscht werden, da sie nicht über die erforderlichen Berechtigungen verfügen: <b>{\$file_list}</b>.";
+$L["notify_file_not_deleted_unknown_error"] = "Die Datei <b>{\$filename}</b> im Ordner <b>{\$folder}</b> konnte aufgrund eines unbekannten Fehlers nicht gelöscht werden.";
+$L["notify_files_not_deleted_unknown_errors"] = "Die folgenden Dateien konnten aufgrund unbekannter Fehler nicht gelöscht werden: <b>{\$file_list}</b>.";
+$L["notify_clear_error"] = "<a href=\"#\" onclick=\"{\$js_link}\">Klicken Sie hier</a>, um diese Fehlermeldung zu ignorieren und den Verweis einfach aus der Datenbank zu entfernen.";
+$L["notify_clear_errors"] = "<a href=\"#\" onclick=\"{\$js_link}\">Klicken Sie hier</a>, um diese Fehlermeldungen zu ignorieren und die Referenzen einfach aus der Datenbank zu entfernen.";
+$L["notify_file_deleted_with_error"] = "Datei <b>1</b> wurde erfolgreich gelöscht";
+$L["notify_files_deleted_with_error"] = "<b>{\$num_files}</b>-Dateien wurden erfolgreich gelöscht;";
+$L["notify_field_type_reset"] = "Der Feldtyp wurde zurückgesetzt.";
+$L["notify_submission_updated_file_problems"] = "Ihr Beitrag wurde aktualisiert, es sind jedoch Probleme aufgetreten:";
+$L["notify_upload_invalid_file_extension"] = "Die hochgeladene Datei hat eine nicht unterstützte Dateierweiterung.";
+$L["notify_file_not_deleted_missing"] = "Die Datei <b>{\$file}</b> wurde nicht gelöscht, da sie nicht im erwarteten Ordner vorhanden ist (<b>{\$folder}</b>).";
+$L["notify_files_not_deleted_missing"] = "Die folgenden Dateien wurden nicht gelöscht, da sie nicht im erwarteten Ordner (<b>{\$folder}</b>) vorhanden sind: <b>{\$file_list}</b>";
+$L["notify_upload_invalid_file_extensions"] = "Die folgenden Dateien haben nicht unterstützte Dateierweiterungen für ihr Feld: <b>{\$file_list}</b>";
+$L["notify_unable_to_copy_file_to_target_folder"] = "Die folgenden Dateien konnten nicht vom temporären Upload-Speicherort in den Zielordner kopiert werden: <b>{\$file_list}</b>";
+$L["notify_num_files_deleted_with_problems"] = "<b>{\$num_deleted}</b>-Dateien wurden gelöscht, wir hatten jedoch die folgenden Probleme:";
+$L["notify_file_missing_from_folder"] = "Die Datei <b>{\$filename}</b> wurde nicht im Ordner gefunden: <b>{\$folder}</b>";
+$L["notify_files_missing"] = "Diese Dateien wurden nicht gefunden: <b>{\$file_list}</b>.";
+$L["notify_file_incorrect_permissions"] = "Die Datei <b>{\$filename}</b> im Ordner <b>{\$folder}</b> verfügte nicht über die richtigen Dateiberechtigungen.";
+$L["notify_files_incorrect_permissions"] = "Diese Dateien konnten aufgrund von Dateiberechtigungen nicht entfernt werden: <b>{\$file_list}</b>";
+$L["notify_file_unknown_reasons"] = "Die Datei <b>{\$filename}</b> im Ordner <b>{\$folder}</b> konnte aus unbekannten Gründen nicht entfernt werden.";
+$L["notify_files_unknown_reasons"] = "Diese Dateien konnten aus unbekannten Gründen nicht entfernt werden: <b>{\$file_list}</b>";
+$L["phrase_reset_field_type"] = "Feldtyp zurücksetzen";
+$L["phrase_no_files_to_delete"] = "Keine Dateien zum Löschen";
+$L["text_help"] = "Weitere Informationen zu diesem Modul finden Sie in der <a href=\"https://modules.formtools.org/field_type_tinymce/\" target=\"_blank\">Hilfedokumentation</a> auf der Form Tools-Website.";
+$L["text_reset_field_type_desc"] = "Mit dieser Schaltfläche können Sie diesen Feldtyp auf die neuesten Werkseinstellungen zurücksetzen. Im Allgemeinen müssen Sie dies nicht tun, aber im Falle eines fehlgeschlagenen Upgrades ist dies eine ausfallsichere Methode, um sicherzustellen, dass es auf dem neuesten Stand ist.";
+$L["text_intro_desc"] = "Verwenden Sie die <a href=\"{\$link}\">Einstellungen &raquo; Seite Dateien</a>, um die Standardeinstellungen für das Hochladen von Dateien festzulegen. Sie können diese Einstellungen überschreiben, indem Sie jedes Formularfeld über das Formular bearbeiten &raquo; Registerkarte \"Felder\"";
+$L["word_help"] = "Hilfe";

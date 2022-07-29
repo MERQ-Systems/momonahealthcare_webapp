@@ -1,0 +1,40 @@
+<?php
+
+$L = array();
+$L["module_name"] = "फाइल अपलोड";
+
+$L["confirm_delete_submission_files"] = "क्या आप वाकई इन फ़ाइलों को हटाना चाहते हैं?";
+$L["module_description"] = "यह मॉड्यूल आपके फॉर्म टूल्स फ़ील्ड में उपयोग के लिए एक साधारण फ़ाइल अपलोड फ़ील्ड प्रदान करता है।";
+$L["notify_file_deleted"] = "फ़ाइल को हटा दिया गया है।";
+$L["notify_file_too_large"] = "<b>{\$filename}</b> फ़ाइल बहुत बड़ी है। फ़ाइल {\$file_size} KB थी, लेकिन अधिकतम अनुमत फ़ाइल अपलोड आकार {\$max_file_size} KB है।";
+$L["notify_files_deleted"] = "फाइलों को हटा दिया गया है।";
+$L["notify_files_too_large"] = "निम्न फ़ाइलें बहुत बड़ी हैं: <b>{\$file_list}</b>";
+$L["notify_submission_no_field_id"] = "इस सबमिशन की फील्ड आईडी नहीं मिली।";
+$L["notify_file_not_deleted_invalid_permissions"] = "<b>{\$filename}</b> फ़ाइल <b>{\$folder}</b> फ़ोल्डर में हटाया नहीं जा सकता क्योंकि इसमें उपयुक्त अनुमति नहीं थी।";
+$L["notify_files_not_deleted_invalid_permissions"] = "निम्न फ़ाइलों को हटाया नहीं जा सका क्योंकि उनके पास उपयुक्त अनुमति नहीं है: <b>{\$file_list}</b>।";
+$L["notify_file_not_deleted_unknown_error"] = "<b>{\$filename}</b> फ़ाइल <b> {\$folder}</b> फ़ोल्डर में एक अज्ञात त्रुटि के कारण हटाया नहीं जा सका।";
+$L["notify_files_not_deleted_unknown_errors"] = "अज्ञात त्रुटियों के कारण निम्न फ़ाइलों को हटाया नहीं जा सका: <b>{\$file_list}</b>।";
+$L["notify_clear_error"] = "इस त्रुटि संदेश को अनदेखा करने के लिए और डेटाबेस से संदर्भ को हटाने के लिए <a href=\"#\" onclick=\"{\$js_link}\">यहां क्लिक करें</a>।";
+$L["notify_clear_errors"] = "<a href=\"#\" onclick=\"{\$js_link}\">Click here</a> to ignore these error messages and just remove the references from the database.";
+$L["notify_file_deleted_with_error"] = "<b>1</b> फ़ाइल को सफलतापूर्वक हटा दिया गया था, लेकिन निम्नलिखित त्रुटियां हुईं";
+$L["notify_files_deleted_with_error"] = "<b>{\$num_files}</b> फ़ाइलों को सफलतापूर्वक हटा दिया गया था, लेकिन निम्नलिखित त्रुटियां हुईं";
+$L["notify_field_type_reset"] = "फ़ील्ड प्रकार रीसेट कर दिया गया है।";
+$L["notify_submission_updated_file_problems"] = "आपका सबमिशन अपडेट किया गया था, लेकिन हमें समस्याओं का सामना करना पड़ा:";
+$L["notify_upload_invalid_file_extension"] = "अपलोड की जा रही फ़ाइल में एक असमर्थित फ़ाइल एक्सटेंशन है।";
+$L["notify_file_not_deleted_missing"] = "<b>{\$filename}</b> फ़ाइल को हटाया नहीं गया है क्योंकि यह अपेक्षित फ़ोल्डर में मौजूद नहीं है (<b>{\$folder}</b>)";
+$L["notify_files_not_deleted_missing"] = "निम्न फ़ाइलों को हटाया नहीं गया है क्योंकि वे अपेक्षित फ़ोल्डर में मौजूद नहीं हैं (<b>{\$folder}</b>): <b>{\$file_list}</b>";
+$L["notify_upload_invalid_file_extensions"] = "निम्न फ़ाइलों में उनके क्षेत्र के लिए असमर्थित फ़ाइल एक्सटेंशन हैं: <b>{\$file_list}</b>";
+$L["notify_unable_to_copy_file_to_target_folder"] = "निम्न फ़ाइलों को उनके अस्थायी अपलोड स्थान से लक्ष्य फ़ोल्डर में कॉपी नहीं किया जा सकता है: <b>{\$file_list}</b>";
+$L["notify_num_files_deleted_with_problems"] = "<b>{\$num_deleted}</b> फ़ाइलें हटा दी गईं, लेकिन हमें निम्नलिखित समस्याओं का सामना करना पड़ा:";
+$L["notify_file_missing_from_folder"] = "फ़ोल्डर में <b>{\$filename}</b> फ़ाइल नहीं मिली: <b>{\$folder}</b>";
+$L["notify_files_missing"] = "ये फ़ाइलें नहीं मिलीं: <b>{\$file_list}</b>।";
+$L["notify_file_incorrect_permissions"] = "<b>{\$filename}</b> फ़ाइल <b>{\$folder}</b> फ़ोल्डर में सही फ़ाइल अनुमतियाँ नहीं थीं।";
+$L["notify_files_incorrect_permissions"] = "फ़ाइल अनुमतियों के कारण इन फ़ाइलों को हटाया नहीं जा सका: <b>{\$file_list}</b>";
+$L["notify_file_unknown_reasons"] = "<b>{\$filename}</b> फ़ाइल <b>{\$folder}</b> फ़ोल्डर में अज्ञात कारणों से हटाया नहीं जा सका।";
+$L["notify_files_unknown_reasons"] = "अज्ञात कारणों से इन फ़ाइलों को हटाया नहीं जा सका: <b>{\$file_list}</b>";
+$L["phrase_reset_field_type"] = "फ़ील्ड प्रकार रीसेट करें";
+$L["phrase_no_files_to_delete"] = "हटाने के लिए कोई फाइल नहीं।";
+$L["text_help"] = "इस मॉड्यूल के बारे में अधिक जानकारी के लिए, कृपया फॉर्म टूल साइट पर <a href=\"http://modules.formtools.org/field_type_tinymce/\" target=\"_blank\">सहायता दस्तावेज़</a> देखें।";
+$L["text_reset_field_type_desc"] = "नीचे दिया गया यह बटन आपको इस फ़ील्ड प्रकार को नवीनतम फ़ैक्टरी डिफ़ॉल्ट में रीसेट करने देता है। आम तौर पर आपको ऐसा करने की आवश्यकता नहीं होती है, लेकिन असफल उन्नयन के मामले में यह सुनिश्चित करने का एक असफल तरीका है कि यह अद्यतित है।";
+$L["text_intro_desc"] = "<a href=\"{\$link}\">सेटिंग और raquo का उपयोग करें; डिफ़ॉल्ट फ़ाइल अपलोड सेटिंग्स को परिभाषित करने के लिए फ़ाइलें</a> पृष्ठ। आप संपादन फ़ॉर्म के माध्यम से किसी भी प्रपत्र फ़ील्ड को संपादित करके उन सेटिंग्स को ओवरराइड कर सकते हैं & raquo; फ़ील्ड टैब।";
+$L["word_help"] = "मदद";

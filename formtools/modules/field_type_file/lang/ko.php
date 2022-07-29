@@ -1,0 +1,40 @@
+<?php
+
+$L = array();
+$L["module_name"] = "파일 업로드";
+
+$L["confirm_delete_submission_files"] = "이 파일을 정말로 삭제 하시겠습니까?";
+$L["module_description"] = "이 모듈은 양식 도구 필드에서 사용할 간단한 파일 업로드 필드를 제공합니다.";
+$L["notify_file_deleted"] = "파일이 삭제되었습니다.";
+$L["notify_file_too_large"] = "<b>{\$filename}</b> 파일이 너무 큽니다. 파일은 {\$file_size} KB이지만 최대 허용 파일 업로드 크기는 {\$max_file_size} KB입니다.";
+$L["notify_files_deleted"] = "파일이 삭제되었습니다.";
+$L["notify_files_too_large"] = "다음 파일이 너무 큽니다. <b>{\$file_list}</b>";
+$L["notify_submission_no_field_id"] = "이 제출의 입력란 ID를 찾을 수 없습니다.";
+$L["notify_file_not_deleted_invalid_permissions"] = "<b>{\$folder}</b> 폴더의 <b>{\$filename}</b> 파일은 적절한 권한이 없으므로 삭제할 수 없습니다.";
+$L["notify_files_not_deleted_invalid_permissions"] = "다음 파일은 적절한 사용 권한이 없기 때문에 삭제할 수 없습니다 : <b>{\$file_list}</b>.";
+$L["notify_file_not_deleted_unknown_error"] = "<b>{\$folder}</b> 폴더에있는 <b>{\$filename}</b> 파일을 알 수없는 오류로 인해 삭제할 수 없습니다.";
+$L["notify_files_not_deleted_unknown_errors"] = "알 수없는 오류로 인해 다음 파일을 삭제할 수 없습니다 : <b>{\$file_list}</b>.";
+$L["notify_clear_error"] = "이 오류 메시지를 무시하고 데이터베이스에서 참조를 제거하려면 <a href=\"#\" onclick=\"{\$js_link}\">여기를 클릭하십시오</a>.";
+$L["notify_clear_errors"] = "이러한 오류 메시지를 무시하고 데이터베이스에서 참조를 제거하려면 <a href=\"#\" onclick=\"{\$js_link}\">여기를 클릭하십시오</a>.";
+$L["notify_file_deleted_with_error"] = "<b>1</b> 파일이 성공적으로 삭제되었지만 다음 오류가 발생했습니다.";
+$L["notify_files_deleted_with_error"] = "<b>{\$num_files}</b> 파일이 성공적으로 삭제되었지만 다음 오류가 발생했습니다.";
+$L["notify_field_type_reset"] = "입력란 유형이 재설정되었습니다.";
+$L["notify_submission_updated_file_problems"] = "제출이 업데이트되었지만 문제가 발생했습니다.";
+$L["notify_upload_invalid_file_extension"] = "업로드되는 파일의 파일 확장자가 지원되지 않습니다.";
+$L["notify_file_not_deleted_missing"] = "예상 된 폴더 (<b>{\$folder}</b>)에 존재하지 않아 <b>{\$file}</b> 파일이 삭제되지 않았습니다.";
+$L["notify_files_not_deleted_missing"] = "다음 파일은 예상 폴더 (<b>{\$folder}</b>)에 없으므로 삭제되지 않았습니다. <b>{\$file_list}</b>";
+$L["notify_upload_invalid_file_extensions"] = "다음 파일에는 해당 필드에 대해 지원되지 않는 파일 확장자가 있습니다. <b>{\$file_list}</b>";
+$L["notify_unable_to_copy_file_to_target_folder"] = "다음 파일을 임시 업로드 위치에서 대상 폴더로 복사 할 수 없습니다 : <b>{\$file_list}</b>";
+$L["notify_num_files_deleted_with_problems"] = "<b>{\$num_deleted}</b> 파일이 삭제되었지만 다음과 같은 문제가 발생했습니다.";
+$L["notify_file_missing_from_folder"] = "<b>{$filename}</b> 파일을 <b>{\$folder}</b> 폴더에 없습니다.";
+$L["notify_files_missing"] = "다음 파일을 찾을 수 없습니다 : <b>{\$file_list}</b>.";
+$L["notify_file_incorrect_permissions"] = "<b>{\$folder}</b> 폴더에있는 <b>{\$filename}</b> 파일에 올바른 파일 권한이 없습니다.";
+$L["notify_files_incorrect_permissions"] = "파일 사용 권한으로 인해 다음 파일을 삭제할 수 없습니다 : <b>{\$file_list}</b>";
+$L["notify_file_unknown_reasons"] = "<b>{\$folder}</b> 폴더에있는 <b>{\$filename}</b> 파일을 알 수없는 이유로 제거 할 수 없습니다.";
+$L["notify_files_unknown_reasons"] = "알 수없는 이유로 이러한 파일을 삭제할 수 없습니다 : <b>{\$file_list}</b>";
+$L["phrase_reset_field_type"] = "필드 유형 재설정";
+$L["phrase_no_files_to_delete"] = "삭제할 파일이 없습니다.";
+$L["text_help"] = "이 모듈에 대한 자세한 내용은 양식 도구 사이트의 <a href=\"https://modules.formtools.org/field_type_tinymce/\" target=\"_blank\">도움말 설명서</a>를 참조하십시오.";
+$L["text_reset_field_type_desc"] = "아래의이 버튼을 사용하여이 필드 유형을 최신 공장 기본값으로 재설정 할 수 있습니다. 일반적으로이 작업을 수행 할 필요는 없지만 업그레이드가 실패 할 경우 최신 상태를 유지할 수있는 안전 장치가됩니다.";
+$L["text_intro_desc"] = "<a href=\"{\$link}\">설정 & raquo; 파일</a> 페이지에서 기본 파일 업로드 설정을 정의하십시오. 양식 수정을 통해 양식 필드를 수정하여 해당 설정을 재정의 할 수 있습니다. &raquo; 필드 탭.";
+$L["word_help"] = "도움";

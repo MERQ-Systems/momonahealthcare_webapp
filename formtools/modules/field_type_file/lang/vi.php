@@ -1,0 +1,40 @@
+<?php
+
+$L = array();
+$L["module_name"] = "Tải tệp lên";
+
+$L["confirm_delete_submission_files"] = "Bạn có chắc chắn muốn xóa những tập tin này?";
+$L["module_description"] = "Mô-đun này cung cấp trường tải lên tệp đơn giản để sử dụng trong các trường Công cụ biểu mẫu của bạn.";
+$L["notify_file_deleted"] = "Các tập tin đã bị xóa.";
+$L["notify_file_too_large"] = "Tệp <b>{\$filename}</b> quá lớn. Tệp là {\$file_size} KB, nhưng kích thước tải lên tệp tối đa được phép là {\$max_file_size} KB.";
+$L["notify_files_deleted"] = "Các tập tin đã bị xóa.";
+$L["notify_files_too_large"] = "Các tệp sau quá lớn: <b>{\$file_list}</b>";
+$L["notify_submission_no_field_id"] = "ID trường của trình này không được tìm thấy.";
+$L["notify_file_not_deleted_invalid_permissions"] = "Không thể xóa tệp <b>{\$filename}</b> trong thư mục <b>{\$folder}</b> vì nó không có quyền thích hợp.";
+$L["notify_files_not_deleted_invalid_permissions"] = "Không thể xóa các tệp sau vì chúng không có quyền thích hợp: <b>{\$file_list}</b>.";
+$L["notify_file_not_deleted_unknown_error"] = "Không thể xóa tệp <b>{\$filename}</b> trong thư mục <b>{\$folder}</b> do lỗi không xác định.";
+$L["notify_files_not_deleted_unknown_errors"] = "Không thể xóa các tệp sau do lỗi không xác định: <b>{\$file_list}</b>.";
+$L["notify_clear_error"] = "<a href=\"#\" onclick=\"{\$js_link}\">Nhấp vào đây</a> để bỏ qua thông báo lỗi này và chỉ xóa tham chiếu khỏi cơ sở dữ liệu.";
+$L["notify_clear_errors"] = "<a href=\"#\" onclick=\"{\$js_link}\">Nhấp vào đây</a> để bỏ qua các thông báo lỗi này và chỉ xóa các tham chiếu khỏi cơ sở dữ liệu.";
+$L["notify_file_deleted_with_error"] = "Tệp <b>1</b> đã bị xóa thành công, nhưng đã xảy ra các lỗi sau";
+$L["notify_files_deleted_with_error"] = "Các tệp <b>{\$num_files}</b> đã bị xóa thành công, nhưng đã xảy ra các lỗi sau";
+$L["notify_field_type_reset"] = "Loại trường đã được đặt lại.";
+$L["notify_submission_updated_file_problems"] = "Nội dung gửi của bạn đã được cập nhật, nhưng chúng tôi đã gặp phải sự cố:";
+$L["notify_upload_invalid_file_extension"] = "Tệp đang được tải lên có phần mở rộng tệp không được hỗ trợ.";
+$L["notify_file_not_deleted_missing"] = "Tệp <b>{\$file}</b> chưa bị xóa vì nó không tồn tại trong thư mục dự kiến (<b>{\$folder}</b>)";
+$L["notify_files_not_deleted_missing"] = "Các tệp sau chưa bị xóa vì chúng không tồn tại trong thư mục dự kiến (<b>{\$folder}</b>): <b>{\$file_list}</b>";
+$L["notify_upload_invalid_file_extensions"] = "Các tệp sau đây có phần mở rộng tệp không được hỗ trợ cho trường của chúng: <b>{\$file_list}</b>";
+$L["notify_unable_to_copy_file_to_target_folder"] = "Không thể sao chép các tệp sau vào thư mục đích từ vị trí tải lên tạm thời của chúng: <b>{\$file_list}</b>";
+$L["notify_num_files_deleted_with_problems"] = "Các tệp <b>{\$num_delatted}</b> đã bị xóa nhưng chúng tôi đã gặp phải các vấn đề sau:";
+$L["notify_file_missing_from_folder"] = "Không tìm thấy tệp <b>{\$filename}</b> trong thư mục: <b>{\$folder}</b>";
+$L["notify_files_missing"] = "Không tìm thấy các tệp này: <b>{\$file_list}</b>.";
+$L["notify_file_incorrect_permissions"] = "Tệp <b>{\$filename}</b> trong thư mục <b>{\$folder}</b> không có quyền truy cập tệp đúng.";
+$L["notify_files_incorrect_permissions"] = "Không thể xóa các tệp này do quyền của tệp: <b>{\$file_list}</b>";
+$L["notify_file_unknown_reasons"] = "Không thể xóa tệp <b>{\$filename}</b> trong thư mục <b>{\$folder}</b> vì những lý do không xác định.";
+$L["notify_files_unknown_reasons"] = "Không thể xóa các tệp này vì lý do không xác định: <b>{\$file_list}</b>";
+$L["phrase_reset_field_type"] = "Đặt lại loại trường";
+$L["phrase_no_files_to_delete"] = "Không có tập tin để xóa.";
+$L["text_help"] = "Để biết thêm thông tin về mô-đun này, vui lòng xem <a href=\"https://modules.formtools.org/field_type_tinymce/\" target=\"_blank\">Tài liệu trợ giúp</a> trên trang web Công cụ biểu mẫu.";
+$L["text_reset_field_type_desc"] = "Nút này bên dưới cho phép bạn đặt lại loại trường này về mặc định của nhà máy mới nhất. Nói chung, bạn không phải làm điều này, nhưng trong trường hợp nâng cấp không thành công thì đây là một cách không an toàn để đảm bảo cập nhật.";
+$L["text_intro_desc"] = "Sử dụng <a href=\"{\$link}\">Cài đặt &raquo; Trang</a> để xác định cài đặt tải lên tệp mặc định. Bạn có thể ghi đè các cài đặt đó bằng cách chỉnh sửa bất kỳ trường biểu mẫu nào thông qua Biểu mẫu chỉnh sửa &raquo; Tab trường.";
+$L["word_help"] = "Cứu giúp";

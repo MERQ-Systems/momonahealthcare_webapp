@@ -1,0 +1,40 @@
+<?php
+
+$L = array();
+$L["module_name"] = "File Upload";
+
+$L["confirm_delete_submission_files"] = "Er du sikker på, at du vil slette disse filer?";
+$L["module_description"] = "Dette modul giver et simpelt filoverførselsfelt til brug i dine formularer.";
+$L["notify_file_deleted"] = "Filen er blevet slettet.";
+$L["notify_file_too_large"] = "Filen <b>{\$filename}</b> er for stor. Filen var {\$file_size} KB, men den maksimalt tilladte filoploadstørrelse er {\$max_file_size} KB.";
+$L["notify_files_deleted"] = "Filerne er slettet.";
+$L["notify_files_too_large"] = "Følgende filer er for store: <b> {\$file_list}</b>";
+$L["notify_submission_no_field_id"] = "Dette indsendelses felt-id blev ikke fundet.";
+$L["notify_file_not_deleted_invalid_permissions"] = "Filen <b>{\$filename}</b> i mappen <b>{\$folder}</b> kunne ikke slettes, fordi den ikke havde de nødvendige tilladelser.";
+$L["notify_files_not_deleted_invalid_permissions"] = "Følgende filer kunne ikke slettes, fordi de ikke har de nødvendige tilladelser: <b>{\$file_list}</b>.";
+$L["notify_file_not_deleted_unknown_error"] = "Filen <b>{\$filename}</b> i mappen <b>{\$folder}</b> kunne ikke slettes på grund af en ukendt fejl.";
+$L["notify_files_not_deleted_unknown_errors"] = "Følgende filer kunne ikke slettes på grund af ukendte fejl: <b>{\$file_list}</b>.";
+$L["notify_clear_error"] = "<a href=\"#\" onclick=\"{\$js_link}\">Klik her</a> for at ignorere denne fejlmeddelelse og bare fjerne referencen fra databasen.";
+$L["notify_clear_errors"] = "<a href=\"#\" onclick=\"{\$js_link}\">Klik her</a> for at ignorere disse fejlmeddelelser og blot fjerne referencerne fra databasen.";
+$L["notify_file_deleted_with_error"] = "<b>1</b> filen blev slettet korrekt, men der opstod følgende fejl";
+$L["notify_files_deleted_with_error"] = "<b>{\$num_files}</b> filer blev slettet korrekt, men der opstod følgende fejl";
+$L["notify_field_type_reset"] = "Feltypen er nulstillet.";
+$L["notify_submission_updated_file_problems"] = "Dit indlæg blev opdateret, men vi stødte på problemer:";
+$L["notify_upload_invalid_file_extension"] = "Filen, der uploades, indeholder en ikke-understøttet filtypenavn.";
+$L["notify_file_not_deleted_missing"] = "Filen <b>{\$file}</b> er ikke blevet slettet, fordi den ikke findes i den forventede mappe (<b>{\$folder}</b>)";
+$L["notify_files_not_deleted_missing"] = "Følgende filer er ikke slettet, fordi de ikke findes i den forventede mappe (<b>{\$folder}</b>): <b>{\$file_list}</b>";
+$L["notify_upload_invalid_file_extensions"] = "Følgende filer har ikke-understøttede filudvidelser for deres felt: <b>{\$file_list}</b>";
+$L["notify_unable_to_copy_file_to_target_folder"] = "Følgende filer kunne ikke kopieres til målmappen fra deres midlertidige uploadplacering: <b>{\$file_list}</b>";
+$L["notify_num_files_deleted_with_problems"] = "<b>{\$num_deleted}</b> filer blev slettet, men vi stødte på følgende problemer:";
+$L["notify_file_missing_from_folder"] = "Filen <b>{\$filename}</b> blev ikke fundet i mappen: <b>{\$folder}</b>";
+$L["notify_files_missing"] = "Disse filer blev ikke fundet: <b>{\$file_list}</b>.";
+$L["notify_file_incorrect_permissions"] = "Filen <b>{\$filename}</b> i mappen <b>{\$folder}</b> har ikke de rigtige filtilladelser.";
+$L["notify_files_incorrect_permissions"] = "Disse filer kunne ikke fjernes på grund af filtilladelser: <b>{\$file_list}</b>";
+$L["notify_file_unknown_reasons"] = "Filen <b>{\$filename}</b> i mappen <b>{\$folder}</b> kunne ikke fjernes af ukendte årsager.";
+$L["notify_files_unknown_reasons"] = "Disse filer kunne ikke fjernes på grund af ukendte årsager: <b>{\$file_list}</b>";
+$L["phrase_reset_field_type"] = "Nulstil feltype";
+$L["phrase_no_files_to_delete"] = "Ingen filer, der skal slettes.";
+$L["text_help"] = "For mere information om dette modul, se venligst <a href=\"https://modules.formtools.org/field_type_tinymce/\" target=\"_blank\">hjælpedokumentation</a> på webstedet Formularværktøjer.";
+$L["text_reset_field_type_desc"] = "Denne knap nedenfor lader dig nulstille denne feltype til de nyeste fabriksindstillinger. Generelt behøver du ikke at gøre dette, men i tilfælde af en mislykket opgradering er det en fejlfinding måde at sikre, at den er opdateret.";
+$L["text_intro_desc"] = "Brug <a href=\"{\$link}\">Indstillinger &raquo; Filer</a> for at definere standardindstillingerne for filoploading. Du kan tilsidesætte disse indstillinger ved at redigere et formularfelt via Rediger formularen &raquo; Fanen Felt.";
+$L["word_help"] = "Hjælp";

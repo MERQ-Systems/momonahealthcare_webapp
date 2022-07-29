@@ -1,0 +1,40 @@
+<?php
+
+$L = array();
+$L["module_name"] = "Weka Pakia";
+
+$L["confirm_delete_submission_files"] = "Una uhakika unataka kufuta faili hizi?";
+$L["module_description"] = "Moduli hii hutoa shamba rahisi la kupakia faili kwa matumizi katika mashamba yako ya Zana za Fomu.";
+$L["notify_file_deleted"] = "Faili imefutwa.";
+$L["notify_file_too_large"] = "Faili <b>{\$filename}</b> ni kubwa mno. Faili ilikuwa {\$file_size} KB, lakini ukubwa wa upakiaji wa kupakia faili uliopitishwa ni {\$max_file_size} KB.";
+$L["notify_files_deleted"] = "Faili zimefutwa.";
+$L["notify_files_too_large"] = "Faili zifuatazo ni kubwa sana: <b>{\$file_list}</b>";
+$L["notify_submission_no_field_id"] = "Kitambulisho cha shamba cha uwasilishaji hakikuonekana.";
+$L["notify_file_not_deleted_invalid_permissions"] = "Faili ya <b>{\$filename}</b> kwenye folda ya <b>{\$folder}</b> haikuweza kufutwa kwa sababu haikuwa na idhini sahihi.";
+$L["notify_files_not_deleted_invalid_permissions"] = "Faili zifuatazo hazikuweza kufutwa kwa sababu hazina idhini sahihi: <b>{\$file_list}</b>.";
+$L["notify_file_not_deleted_unknown_error"] = "Faili ya <b>{\$filename}</b> katika folda ya <b>{\$folder}</b> haikuweza kufutwa kwa sababu ya kosa lisilojulikana.";
+$L["notify_files_not_deleted_unknown_errors"] = "Faili zifuatazo haikuweza kufutwa kwa sababu ya makosa haijulikani: <b>{\$file_list}</b>.";
+$L["notify_clear_error"] = "<a href=\"#\" onclick=\"{\$js_link}\">Bonyeza hapa</a> kupuuza ujumbe huu wa hitilafu na uondoe rejea kutoka kwenye databana.";
+$L["notify_clear_errors"] = "<a href=\"#\" onclick=\"{\$js_link}\">Bonyeza hapa</a> kupuuza ujumbe huu wa hitilafu na tu uondoe kumbukumbu kutoka kwenye databana.";
+$L["notify_file_deleted_with_error"] = "Faili <b>1</b> imefutwa kwa ufanisi, lakini makosa yaliyofuata yalitokea";
+$L["notify_files_deleted_with_error"] = "Faili za <b>{\$num_files}</b> zimefutwa kwa ufanisi, lakini makosa yaliyofuata yalitokea";
+$L["notify_field_type_reset"] = "Aina ya shamba imewekwa tena.";
+$L["notify_submission_updated_file_problems"] = "Uwasilisho wako ulibadilishwa, lakini tumekutana na matatizo:";
+$L["notify_upload_invalid_file_extension"] = "Faili iliyopakiwa ina ugani wa faili usiyotumika.";
+$L["notify_file_not_deleted_missing"] = "Faili <b>{\$file}</b> haijafutwa kwa sababu haipo katika folda inayotarajiwa (<b>{\$folder}</b>)";
+$L["notify_files_not_deleted_missing"] = "Faili zifuatazo hazijafutwa kwa sababu hazipo katika folda inayotarajiwa (<b>{\$folder}</b>): <b>{\$file_list}</b>";
+$L["notify_upload_invalid_file_extensions"] = "Faili zifuatazo zinaongeza upanuzi wa faili kwa uwanja wao: <b>{\$file_list}</b>";
+$L["notify_unable_to_copy_file_to_target_folder"] = "Faili zifuatazo hazikuweza kunakiliwa kwenye folda inayolengwa kutoka eneo la kupakia kwa muda mfupi: <b>{\$file_list}</b>";
+$L["notify_num_files_deleted_with_problems"] = "Faili <b>{\$num_deleted}</b> zimefutwa, lakini tumekutana na matatizo yafuatayo:";
+$L["notify_file_missing_from_folder"] = "Faili ya <b>{\$filename}</b> haipatikani kwenye folda: <b>{\$folder}</b>";
+$L["notify_files_missing"] = "Faili hizi hazikupatikana: <b>{\$file_list}</b>.";
+$L["notify_file_incorrect_permissions"] = "Faili <b>{\$filename}</b> kwenye folda ya <b>{\$folder}</b> hakuwa na idhini ya faili sahihi.";
+$L["notify_files_incorrect_permissions"] = "Faili <b>{\$filename}</b> kwenye folda ya <b>{\$folder}</ b> hakuwa na idhini ya faili sahihi.";
+$L["notify_file_unknown_reasons"] = "Faili ya <b>{\$filename}</b> kwenye folda ya <b>{\$folder}</b> haikuweza kuondolewa kwa sababu zisizojulikana.";
+$L["notify_files_unknown_reasons"] = "Faili hizi hazikuweza kuondolewa kutokana na sababu zisizojulikana: <b>{\$file_list}</b>";
+$L["phrase_reset_field_type"] = "Weka upya aina ya shamba";
+$L["phrase_no_files_to_delete"] = "Hakuna faili za kufuta.";
+$L["text_help"] = "Kwa maelezo zaidi juu ya moduli hii, tafadhali angalia <a href=\"https://modules.formtools.org/field_type_tinymce/\" target=\"_blank\">nyaraka za usaidizi</a> kwenye tovuti ya Vifaa vya Fomu.";
+$L["text_reset_field_type_desc"] = "Kifungo hiki hapa chini kinakuwezesha upya aina hii ya shamba kwa vifupisho vya hivi karibuni vya kiwanda. Kwa ujumla huna kufanya hivyo, lakini ikiwa kuna kushindwa kuboresha hii ni njia ya kushindwa kuhakikisha kuwa inakaribia.";
+$L["text_intro_desc"] = "Tumia <a href=\"{\$link}\">Mipangilio &raquo; Files</a> ukurasa ili kufafanua mipangilio ya kupakia faili ya default. Unaweza kuhariri mipangilio hiyo kwa kuhariri uwanja wowote wa fomu kupitia Fomu ya Uhariri &raquo; Tabia ya shamba.";
+$L["word_help"] = "Msaada";

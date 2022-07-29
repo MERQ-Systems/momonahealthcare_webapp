@@ -1,0 +1,40 @@
+<?php
+
+$L = array();
+$L["module_name"] = "Pag-upload ng File";
+
+$L["confirm_delete_submission_files"] = "Sigurado ka bang gusto mong tanggalin ang mga file na ito?";
+$L["module_description"] = "Ang modyul na ito ay nagbibigay ng isang simpleng field ng pag-upload ng file para magamit sa iyong mga patlang ng Mga Tool ng Form.";
+$L["notify_file_deleted"] = "Ang file ay tinanggal.";
+$L["notify_file_too_large"] = "Ang file na <b>{\$filename}</b> ay masyadong malaki. Ang file ay {\$file_size} KB, ngunit ang maximum na pinahihintulutang sukat sa pag-upload ng file ay {\$max_file_size} KB.";
+$L["notify_files_deleted"] = "Ang mga file ay tinanggal.";
+$L["notify_files_too_large"] = "Ang mga sumusunod na file ay masyadong malaki: <b>{\$file_list}</b>";
+$L["notify_submission_no_field_id"] = "Hindi nakita ang field ID ng pagsusumite na ito.";
+$L["notify_file_not_deleted_invalid_permissions"] = "Ang file na <b>{\$filename}</b> sa folder ng <b>{\$folder}</b> ay hindi maaaring matanggal dahil wala itong naaangkop na mga pahintulot.";
+$L["notify_files_not_deleted_invalid_permissions"] = "Ang mga sumusunod na file ay hindi maaaring matanggal dahil wala silang naaangkop na mga pahintulot: <b>{\$file_list}</b>.";
+$L["notify_file_not_deleted_unknown_error"] = "Ang file na <b>{\$filename}</b> sa folder na <b>{\$folder}</b> ay hindi matatanggal dahil sa isang hindi kilalang error.";
+$L["notify_files_not_deleted_unknown_errors"] = "Ang mga sumusunod na file ay hindi maaaring tanggalin dahil sa hindi kilalang mga error: <b>{\$file_list}</b>.";
+$L["notify_clear_error"] = "<a href=\"#\" onclick=\"{\$js_link}\">Mag-click dito</a> upang huwag pansinin ang mensaheng error na ito at alisin lamang ang reference mula sa database.";
+$L["notify_clear_errors"] = "<a href=\"#\" onclick=\"{\$js_link}\">Mag-click dito</a> upang huwag pansinin ang mga mensaheng error na ito at alisin lamang ang mga sanggunian mula sa database.";
+$L["notify_file_deleted_with_error"] = "Matagumpay na naalis ang file na <b>1</b>, ngunit naganap ang mga sumusunod na error";
+$L["notify_files_deleted_with_error"] = "Matagumpay na natanggal ang mga <b>{\$num_files}</b> na mga file, ngunit naganap ang mga sumusunod na error";
+$L["notify_field_type_reset"] = "Ang uri ng field ay na-reset.";
+$L["notify_submission_updated_file_problems"] = "Na-update ang iyong pagsusumite, ngunit nakaranas kami ng mga problema:";
+$L["notify_upload_invalid_file_extension"] = "Ang pag-upload ng file ay may hindi suportadong extension ng file.";
+$L["notify_file_not_deleted_missing"] = "Ang file na <b>{\$file}</b> ay hindi tinanggal dahil hindi ito umiiral sa inaasahang folder (<b>{\$folder}</b>)";
+$L["notify_files_not_deleted_missing"] = "Ang mga sumusunod na file ay hindi tinanggal dahil hindi ito umiiral sa inaasahang folder (<b>{\$folder}</b>): <b>{\$file_list}</b>";
+$L["notify_upload_invalid_file_extensions"] = "Ang mga sumusunod na file ay may hindi suportadong mga extension ng file para sa kanilang larangan: <b>{\$file_list}</b>";
+$L["notify_unable_to_copy_file_to_target_folder"] = "Ang mga sumusunod na file ay hindi maaaring kopyahin sa target na folder mula sa kanilang pansamantalang lokasyon sa pag-upload: <b>{\$file_list}</b>";
+$L["notify_num_files_deleted_with_problems"] = "Ang <b>{\$num_detected}</b> ay tinanggal, ngunit naranasan namin ang mga sumusunod na problema:";
+$L["notify_file_missing_from_folder"] = "Ang file na <b>{\$filename}</b> ay hindi natagpuan sa folder: <b>{\$folder}</b>";
+$L["notify_files_missing"] = "Ang mga file na ito ay hindi natagpuan: <b>{\$file_list}</b>.";
+$L["notify_file_incorrect_permissions"] = "Ang file na <b>{\$filename}</b> sa folder ng <b>{\$folder}</b> ay walang karapatan na mga pahintulot ng file.";
+$L["notify_files_incorrect_permissions"] = "Hindi maalis ang mga file na ito dahil sa mga pahintulot ng file: <b>{\$file_list}</b>";
+$L["notify_file_unknown_reasons"] = "Ang file na <b>{\$filename}</b> sa folder na <b>{\$folder}</b> ay hindi maaaring alisin dahil sa hindi alam na mga dahilan.";
+$L["notify_files_unknown_reasons"] = "Ang mga file na ito ay hindi maaaring alisin dahil sa hindi alam na mga dahilan: <b>{\$file_list}</b>";
+$L["phrase_reset_field_type"] = "I-reset ang Uri ng Field";
+$L["phrase_no_files_to_delete"] = "Walang mga file na tatanggalin.";
+$L["text_help"] = "Para sa higit pang impormasyon sa modyul na ito, pakitingnan ang <a href=\"https://modules.formtools.org/field_type_tinymce/\" target=\"_blank\">dokumentasyon ng tulong</a> sa site ng Mga Tool ng Form.";
+$L["text_reset_field_type_desc"] = "Ang button na ito sa ibaba ay nagbibigay-daan sa iyo i-reset ang uri ng field na ito sa pinakabagong mga default ng factory. Sa pangkalahatan hindi mo na kailangang gawin ito, ngunit sa kaso ng isang nabigong pag-upgrade ito ay isang walang silbi na paraan upang matiyak na napapanahon.";
+$L["text_intro_desc"] = "Gamitin ang <a href=\"{\$link}\">Mga Setting &raquo; Mga file</a> upang tukuyin ang default na mga setting ng pag-upload ng file. Maaari mong i-override ang mga setting sa pamamagitan ng pag-edit ng anumang field ng form sa pamamagitan ng I-edit ang Form &raquo; Tab na Mga Field.";
+$L["word_help"] = "Tulong";

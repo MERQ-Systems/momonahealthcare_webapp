@@ -1,0 +1,40 @@
+<?php
+
+$L = array();
+$L["module_name"] = "Failo ikelimas";
+
+$L["confirm_delete_submission_files"] = "Ar tikrai norite ištrinti šiuos failus?";
+$L["module_description"] = "Šiame modulyje pateikiamas paprastas failų įkėlimo laukas, skirtas naudoti formų įrankių laukuose.";
+$L["notify_file_deleted"] = "Failas ištrintas.";
+$L["notify_file_too_large"] = "<b>{\$filename}</b> failas yra per didelis. Failas buvo {\$file_size} KB, tačiau maksimalus leistinas failo įkėlimo dydis yra {\$max_file_size} KB.";
+$L["notify_files_deleted"] = "Failai ištrinti.";
+$L["notify_files_too_large"] = "Šie failai yra per dideli: <b>{\$file_list}</b>";
+$L["notify_submission_no_field_id"] = "Šio pateikimo lauko ID nerasta.";
+$L["notify_file_not_deleted_invalid_permissions"] = "<b>{\$filename}</b> failas aplanke <b>{\$folder}</b> negali būti ištrintas, nes jis neturėjo tinkamų leidimų.";
+$L["notify_files_not_deleted_invalid_permissions"] = "Nepavyko ištrinti šių failų, nes jie neturi tinkamų leidimų: <b>{\$file_list}</b>.";
+$L["notify_file_not_deleted_unknown_error"] = "<b>{\$filename}</b> failas aplanke <b>{\$folder}</b> negali būti ištrintas dėl nežinomos klaidos.";
+$L["notify_files_not_deleted_unknown_errors"] = "Šių failų negalima ištrinti dėl nežinomų klaidų: <b>{\$file_list}</b>.";
+$L["notify_clear_error"] = "<a href=\"#\" onclick=\"{\$js_link}\">Spustelėkite čia</a>, kad ignoruotumėte šį klaidos pranešimą ir tiesiog pašalinkite nuorodą iš duomenų bazės.";
+$L["notify_clear_errors"] = "<a href=\"#\" onclick=\"{\$js_link}\">Spustelėkite čia</a>, kad ignoruotumėte šiuos klaidų pranešimus ir tiesiog pašalintumėte nuorodas iš duomenų bazės.";
+$L["notify_file_deleted_with_error"] = "<b>1</b> failas buvo sėkmingai ištrintas, tačiau įvyko šios klaidos";
+$L["notify_files_deleted_with_error"] = "<b>{\$num_files}</b> failai buvo sėkmingai ištrinti, tačiau įvyko šios klaidos";
+$L["notify_field_type_reset"] = "Lauko tipas atkurtas.";
+$L["notify_submission_updated_file_problems"] = "Jūsų pranešimas buvo atnaujintas, tačiau susidūrėme su problemomis:";
+$L["notify_upload_invalid_file_extension"] = "Įkeliamame faile yra nepalaikomas failo plėtinys.";
+$L["notify_file_not_deleted_missing"] = "<b>{\$file}</b> failas nebuvo ištrintas, nes jis nėra numatomame aplanke (<b>{\$folder}</b>)";
+$L["notify_files_not_deleted_missing"] = "Šie failai nebuvo ištrinti, nes jie nėra numatomame aplanke (<b>{\$folder}</b>): <b>{\$file_list}</b>";
+$L["notify_upload_invalid_file_extensions"] = "Šie failai turi nepalaikomus jų srities failų plėtinius: <b>{\$file_list}</b>";
+$L["notify_unable_to_copy_file_to_target_folder"] = "Šių failų negalima nukopijuoti į tikslinį aplanką iš laikino įkėlimo vietos: <b>{\$file_list}</b>";
+$L["notify_num_files_deleted_with_problems"] = "<b>{\$num_deleted}</b> failai buvo ištrinti, tačiau susidūrėme su šiomis problemomis:";
+$L["notify_file_missing_from_folder"] = "<b>{\$filename}</b> failas nerasta aplanke: <b>{\$folder}</b>";
+$L["notify_files_missing"] = "Šie failai nerasta: <b>{\$file_list}</b>.";
+$L["notify_file_incorrect_permissions"] = "<b>{\$filename}</b> failas aplanke <b>{\$folder}</b> neturėjo tinkamų failų leidimų.";
+$L["notify_files_incorrect_permissions"] = "Šių failų negalima pašalinti dėl failų leidimų: <b>{\$file_list}</b>";
+$L["notify_file_unknown_reasons"] = "<b>{\$filename}</b> failas aplanke <b>{\$folder}</b> negali būti pašalintas dėl nežinomų priežasčių.";
+$L["notify_files_unknown_reasons"] = "Šie failai negali būti pašalinti dėl nežinomų priežasčių: <b>{\$file_list}</b>";
+$L["phrase_reset_field_type"] = "Atstatyti lauko tipą";
+$L["phrase_no_files_to_delete"] = "Nėra failų, kuriuos norite ištrinti.";
+$L["text_help"] = "Norėdami gauti daugiau informacijos apie šį modulį, žr. <a href=\"https://modules.formtools.org/field_type_tinymce/\" target=\"_blank\">pagalbos dokumentaciją</a> formų įrankių svetainėje.";
+$L["text_reset_field_type_desc"] = "Šis žemiau pateiktas mygtukas leidžia atstatyti šį lauko tipą į naujausius gamyklinius nustatymus. Paprastai jums tai nereikia, bet nepavykusio atnaujinimo atveju tai yra nesaugus būdas užtikrinti, kad jis būtų atnaujintas.";
+$L["text_intro_desc"] = "Naudokite <a href=\"{\$link}\">Nustatymus &raquo; Failai</a>, kad nustatytumėte numatytuosius failo įkėlimo nustatymus. Galite pakeisti šiuos nustatymus redaguodami bet kurį formos lauką per Redagavimo formą & raquo; Laukų skirtukas.";
+$L["word_help"] = "Pagalba";

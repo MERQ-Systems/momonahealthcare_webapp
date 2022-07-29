@@ -1,5 +1,5 @@
 
-![merqlogo_eth](https://user-images.githubusercontent.com/37907891/181752401-0bde0d2c-f8c6-4ef6-a3e5-b04c6419e185.png)![momonahealthcare_logo](https://user-images.githubusercontent.com/37907891/181751990-cae65e9a-fa39-4cc6-ab95-b2a19630a7e3.jpg)
+![momonahealthcare_logo](https://user-images.githubusercontent.com/37907891/181751990-cae65e9a-fa39-4cc6-ab95-b2a19630a7e3.jpg)
 
 
 

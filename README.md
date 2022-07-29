@@ -5,8 +5,10 @@
 
 
 
-# momonahealthcare_webapp
-MOMONA Health Care V0.2 WebApp
+# MOMONA Health Care Decision Support Health Information System Web Application V0.2
+
+Repo Name: momonahealthcare_webapp
+
 
 # Designed and Developed For and By MERQ Consultancy © 2022. All Rights Reserved!
 
@@ -15,7 +17,7 @@ MOMONA Health Care V0.2 WebApp
 # Patients data and makes physicians give  appropriate diagnosis and consultation via online video and tele-health gateways.
 ___________________________________________________________________________________________________
 
-Contact MERQ Consultancy for installation and support
+> Contact MERQ Consultancy for installation and support
 
 # ETHIOPIA
 Website: https://www.merqconsultancy.org
